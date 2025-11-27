@@ -14,6 +14,7 @@ Identificar o conteúdo principal, habilidade associada, metadados e justificati
 ## Programas e bibliotecas
 Linux Mint 22.1  
 Python 3  
+API do Gemini Flash 2.5
 
 # Antes de executar o código
 Espera-se que já tenha o python3 instalado
@@ -24,8 +25,14 @@ python3 -m venv venv
 source venv/bin/activate  
 ```
 
-## Para instalar o __________
+## Para instalar o OpenAI
 ```
-pip3 install 
+pip install google-generativeai
 ```
 
+Obter API key no Google AI Studio
+https://aistudio.google.com/app/api-keys
+
+Adicionar ao código na variável de ambiente com:
+
+export GEMINI_API_KEY="SUA_CHAVE_AQUI"
