@@ -1,0 +1,25 @@
+```json
+{
+  "numero": "07",
+  "conteudo_principal": "Leitura e interpretação de textos sobre o impacto social da tecnologia, especificamente o uso da internet para informações de saúde, destacando a qualidade da informação, os riscos da desinformação e a importância do pensamento crítico e critérios de busca.",
+  "justificativa_correta": "A alternativa correta é a C, que afirma que as declarações I e II estão corretas.\n\n**Afirmação I está correta:** O Texto I menciona que a divulgação de temas médicos é uma 'faca de dois gumes' e que 'quem não sabe nada está mais perto da verdade do que a pessoa cuja mente está cheia de informações equivocadas', destacando a dificuldade de a mensagem ser 'bem decodificada'. O Texto II, por sua vez, alerta para 'o perigo do autodiagnóstico e da automedicação' e ressalta que 'boa parte dos estudos mostra que não são adotados critérios durante as buscas na Internet'. Ambos os textos, portanto, evidenciam a necessidade de critérios para evitar riscos à saúde decorrentes de compreensões equivocadas.\n\n**Afirmação II está correta:** O Texto I explicitamente afirma: 'Estima-se que exista uma correlação positiva entre o grau de conhecimento das doenças (seus fatores de risco, formas de prevenção e tratamento) e a taxa de adoção de hábitos saudáveis pela sociedade. O aumento nos diagnósticos precoces do câncer de mama e a diminuição do tabagismo são dois exemplos clássicos a favor dessa ideia. Acredita-se que indivíduos mais bem informados aderem a comportamentos preventivos e reagem melhor a uma enfermidade.' Isso diretamente suporta a ideia de que a informação contribui para o esclarecimento e adoção de hábitos saudáveis.",
+  "justificativas_erradas": {
+    "III": "A afirmação III está incorreta. O Texto II, embora reconheça que os indivíduos buscam informações sobre saúde na internet e que o acesso aumentou, foca nos 'perigos do autodiagnóstico e da automedicação' e na 'não adoção de critérios durante as buscas'. A pesquisadora 'chama a atenção para o perigo', não defendendo o acesso irrestrito como meio para o indivíduo ser proativo na prevenção de patologias, mas sim alertando sobre os riscos associados à falta de critérios. O texto tem um tom de cautela e crítica sobre o uso da informação, e não de defesa da proatividade gerada pelo acesso a informações sem ressalvas, como a afirmação sugere."
+  },
+  "dcn_relacionadas": [
+    "Formação Humanística e Social: A Computação permeia praticamente todas as atividades humanas, incluindo trabalho, lazer, saúde, educação e comunicação, cabendo aos profissionais da Área a responsabilidade pelo desenvolvimento de soluções, ferramentas e processos coerentes com valores éticos e interesse social, e que também busquem o bem-estar do homem e o avanço tecnológico.",
+    "Formação Humanística e Social: O estudo dos Impactos da Automação na Sociedade para prover o profissional de computação do conhecimento das influências sociais e individuais, sejam negativas ou positivas, causadas pelos computadores. Aspectos fundamentais que devem ser discutidos são: a influência do computador sobre a mentalidade dos programadores e usuários; o problema da automação como mecanismo para substituir o trabalho humano; o problema da inclusão digital; o uso de computadores na educação; **qualidade da informação disponível na Internet**; os efeitos sociais negativos e positivos da profissão; influências perniciosas dos computadores sobre a mente dos seus usuários e profissionais.",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: do conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas.",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: Avaliar criticamente projetos de sistemas de computação."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Leitura e Interpretação de Textos",
+    "Impacto Social da Computação",
+    "Ética e Legislação (qualidade da informação)",
+    "Qualidade da Informação na Internet",
+    "Pensamento Crítico"
+  ]
+}
+```

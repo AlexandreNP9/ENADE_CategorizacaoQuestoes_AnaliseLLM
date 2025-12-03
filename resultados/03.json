@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "03",
+  "conteudo_principal": "Compreensão textual, interpretação de informações e análise crítica sobre o impacto social, ambiental e urbanístico do uso de bicicletas como meio de transporte em cidades, e a importância de políticas públicas e infraestrutura associadas.",
+  "justificativa_correta": "A alternativa B está correta porque apenas a afirmação II é verdadeira. A afirmação II (\"O uso das bicicletas como meio de transporte contribui para a melhoria da qualidade de vida nas grandes metrópoles, pois elas não emitem poluentes, além de esse uso proporcionar a prática de atividade física.\") está em total consonância com o Texto I, que destaca o uso de bicicletas como uma das principais alternativas para melhorar a qualidade de vida nas grandes metrópoles, e com o conhecimento de mundo sobre os benefícios do ciclismo urbano (ausência de poluentes, atividade física).",
+  "justificativas_erradas": {
+    "I": "A afirmação I (\"Dado que as bicicletas são veículos que ocupam pouco espaço na malha viária, prescinde-se de investimentos públicos em construção de ciclovias, sendo prioritárias campanhas de conscientização de motoristas a respeito dos benefícios do uso da bicicleta como meio de transporte.\") está incorreta. O Texto I explicitamente menciona a necessidade de 'criação de um espaço exclusivo' (ciclovias) e que 'políticas públicas incentivam o uso de bicicletas como meio de transporte', o que implica diretamente investimentos em infraestrutura. O Texto II, com as menções 'CICLOVIAS...' e 'CICLOFAIXAS...', reforça essa necessidade. Portanto, a ideia de que se 'prescinde' (dispensa) de investimentos públicos em ciclovias é contrária às informações fornecidas.",
+    "III": "A afirmação III (\"A partir da Segunda Guerra Mundial, durante o governo da Alemanha nazista, o uso da bicicleta como meio de transporte tornou-se eficaz e passou a prevalecer nas cidades europeias.\") está incorreta. O Texto I afirma que, na Alemanha nazista, os 'veículos automotivos eram prioridade' e as bicicletas eram um 'empecilho', levando à criação de ciclovias para segregá-las. Não há nenhuma indicação de que o uso da bicicleta 'passou a prevalecer' nas cidades europeias nesse período devido a essas políticas. Pelo contrário, o texto contrasta essa prioridade automobilística do passado com o incentivo atual ao uso de bicicletas para melhorar a qualidade de vida, sugerindo que sua prevalência como meio de transporte significativo é um fenômeno mais recente e motivado por outras razões."
+  },
+  "dcn_relacionadas": [
+    "Formação Humanística e Social: A questão se alinha com a necessidade de o profissional de Computação ter conhecimento das questões sociais, éticas, políticas e humanísticas, e compreender o impacto da tecnologia (e, por extensão, de outras soluções urbanas) na sociedade e no bem-estar humano (Art. 4º, I e II - Perfil Geral dos Egressos).",
+    "Impactos da Automação na Sociedade: Embora não seja diretamente sobre automação, a questão exige uma análise sobre influências sociais e ambientais, como a redução de poluentes e a promoção da saúde, aspectos que contribuem para o 'bem-estar do homem' e a 'qualidade de vida', temas intrínsecos ao estudo dos impactos de inovações e mudanças sociais, mesmo que não exclusivamente computacionais, que o profissional de computação deve ser capaz de considerar em suas soluções.",
+    "Capacidade de utilizar racionalmente os recursos disponíveis de forma transdisciplinar (Art. 4º, V): A análise dos benefícios do uso de bicicletas e da necessidade de infraestrutura envolve a consideração de múltiplos fatores (sociais, ambientais, urbanísticos), indo além de uma única disciplina, o que está alinhado com essa competência."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Compreensão textual",
+    "Interpretação de texto",
+    "Análise crítica",
+    "Impacto social",
+    "Sustentabilidade",
+    "Urbanismo",
+    "Políticas públicas",
+    "Qualidade de vida",
+    "Raciocínio lógico"
+  ]
+}
+```

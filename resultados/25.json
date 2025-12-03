@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "25",
+  "conteudo_principal": "A questão aborda conceitos fundamentais de Computação em Nuvem (Cloud Computing), incluindo seus modelos de serviço (Software as a Service - SaaS, Platform as a Service - PaaS, Infrastructure as a Service - IaaS), modelos de implantação (Nuvem Privada, Pública, Comunidade, Híbrida) e características essenciais, conforme a definição do NIST. Avalia a compreensão das responsabilidades e características distintivas de cada modelo.",
+  "justificativa_correta": "A alternativa correta é a B, pois apenas as afirmações I e IV estão corretas.\n\n**Afirmação I (Correta):** No modelo SaaS, o usuário final consome a aplicação diretamente via internet, sem se preocupar com a infraestrutura subjacente (hardware, sistemas operacionais, middleware, etc.) ou com as atualizações do software. Tudo isso é gerenciado e mantido pelo provedor de nuvem, liberando o usuário de encargos de infraestrutura e manutenção de software. Esta é uma descrição precisa do modelo SaaS.\n\n**Afirmação IV (Correta):** No modelo IaaS, o provedor de nuvem é responsável por gerenciar a infraestrutura física e virtualizada (servidores, redes, armazenamento, hipervisores). O usuário, por sua vez, tem controle sobre o sistema operacional instalado nas máquinas virtuais, o armazenamento lógico, as aplicações implantadas e, em alguns casos, configurações de rede. A afirmação descreve corretamente essa divisão de responsabilidades, onde o usuário gerencia o 'acima do sistema operacional' e o provedor o 'abaixo'.",
+  "justificativas_erradas": {
+    "Afirmação II": "A elasticidade (ou 'rapid elasticity', como característica essencial do NIST) refere-se à capacidade de aumentar ou diminuir a *capacidade* dos recursos computacionais (ex: CPU, memória, armazenamento) de forma rápida e automática para atender às demandas variáveis. A afirmação, no entanto, descreve a elasticidade como a capacidade de aumentar ou diminuir o 'tempo de disponibilidade' dos recursos. 'Tempo de disponibilidade' está relacionado à resiliência e uptime do serviço, que são conceitos distintos de elasticidade. Portanto, a afirmação está incorreta.",
+    "Afirmação III": "Uma Nuvem Comunidade (Community Cloud) é uma infraestrutura de nuvem provisionada para uso exclusivo por uma comunidade específica de consumidores (organizações) que compartilham preocupações comuns (ex: missão, requisitos de segurança, políticas). A infraestrutura *é compartilhada* por essa comunidade e pode ser gerenciada por um ou mais dos membros da comunidade, por um terceiro ou uma combinação. A afirmação distorce esse conceito ao afirmar que o objetivo é 'gerenciar os recursos computacionais *pertencentes a cada uma das organizações participantes*... para compartilhar a infraestrutura'. O foco de uma Nuvem Comunidade não é gerenciar recursos individualmente pertencentes para então compartilhá-los, mas sim ter uma infraestrutura *comum e compartilhada* que é provisionada para a comunidade. O erro está na premissa da propriedade individual dos recursos que são 'gerenciados para compartilhar a infraestrutura', em vez da infraestrutura ser intrinsecamente compartilhada pela comunidade."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'novos paradigmas de computação', 'sistemas distribuídos', 'segurança', 'redes de computadores'. A computação em nuvem integra esses conceitos.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'IV - tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes'; 'IX - adequar-se rapidamente às mudanças tecnológicas e aos novos ambientes de trabalho'. O conhecimento sobre Cloud Computing é essencial para essas competências.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'V - especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas'; 'X - aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação'. A nuvem é uma forma de aplicar esses princípios.",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: 'I - selecionar, configurar e gerenciar tecnologias da Informação nas organizações'; 'II - atuar nas organizações públicas e privadas, para atingir os objetivos organizacionais, usando as modernas tecnologias da informação'; 'XIV - identificar e projetar soluções de alto nível e opções de fornecimento de serviços, realizando estudos de viabilidade com múltiplos critérios de decisão'. A computação em nuvem é uma tecnologia da informação moderna e sua compreensão é vital para os profissionais de SI."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Cloud Computing",
+    "SaaS",
+    "IaaS",
+    "Elasticidade",
+    "Nuvem Comunidade",
+    "Modelos de Serviço",
+    "Modelos de Implantação",
+    "NIST"
+  ]
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "14",
+  "conteudo_principal": "Arquitetura e Organização de Computadores, História da Computação",
+  "justificativa_correta": "A alternativa correta é a C. A asserção I é uma proposição verdadeira, e a asserção II é uma proposição falsa.\n\n**Justificativa para Asserção I (Verdadeira):** A arquitetura de Von Neumann, proposta na década de 1940 (e não 1950, como o texto da asserção menciona, mas o conceito é daquela época), foi um marco revolucionário que introduziu o conceito de programa armazenado em memória, onde instruções e dados compartilham o mesmo espaço de endereçamento. Essa fundamental característica permitiu a flexibilidade e programabilidade dos computadores de propósito geral. Apesar das inúmeras evoluções em hardware (como a introdução de caches, pipelines, múltiplos núcleos e hierarquias de memória), o modelo básico de busca-decodificação-execução de instruções de um programa armazenado na memória, acessado por uma Unidade Central de Processamento (CPU), permanece como a base da maioria dos computadores modernos (notebooks, desktops, servidores, etc.). O texto-base inclusive destaca a importância da recomendação de Von Neumann para superar as limitações de máquinas anteriores.\n\n**Justificativa para Asserção II (Falsa):** A asserção II descreve otimizações de desempenho que são implementadas *em cima* da arquitetura de Von Neumann, mas não são características *definidoras* da própria arquitetura. A arquitetura de Von Neumann é conhecida pelo 'gargalo de Von Neumann' (Von Neumann bottleneck), que se refere à limitação de velocidade causada pelo único barramento compartilhado para dados e instruções. Técnicas como 'prefetching' (busca antecipada de instruções) e o uso de hierarquias de memória (como caches) ou registradores são desenvolvidas para *mitigar* esse gargalo, acelerando as operações da CPU ao reduzir o tempo de acesso à memória principal. No entanto, elas não são parte da definição original e fundamental da arquitetura de Von Neumann. Além disso, a afirmação de que 'a próxima instrução a ser executada está normalmente armazenada nos registradores da CPU' é imprecisa. Registradores são unidades de armazenamento muito pequenas e rápidas dentro da CPU que armazenam dados e instruções *temporariamente* durante o processamento (e.g., instruções que estão nos estágios do pipeline ou operando em execução), mas o armazenamento 'normal' e primário das instruções a serem executadas sequencialmente ainda é a memória principal ou o cache, não os registradores de uso geral da CPU. Os registradores não servem como um 'repositório' de instruções futuras para serem buscadas, mas sim como memória de trabalho imediata.",
+  "justificativas_erradas": {
+    "A": "Incorreta. A asserção II é falsa, pois confunde otimizações de desempenho com as características fundamentais da arquitetura de Von Neumann.",
+    "B": "Incorreta. Embora a asserção I seja verdadeira, a asserção II é falsa, invalidando a premissa de que ambas são verdadeiras.",
+    "D": "Incorreta. A asserção I é verdadeira, e a asserção II é falsa, contradizendo as afirmações desta alternativa.",
+    "E": "Incorreta. A asserção I é verdadeira, o que torna esta alternativa incorreta, pois ela afirma que ambas as asserções são falsas."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: arquitetura e organização de computadores",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: avaliação de desempenho",
+    "Formação Humanística e Social: O estudo da História da Computação para prover o conhecimento da evolução histórica da Área, de forma a permitir que o egresso localize-se no processo evolutivo da Área e seja capaz de avaliar e conhecer as tendências evolucionárias."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Arquitetura de Computadores",
+    "Von Neumann",
+    "ENIAC",
+    "CPU",
+    "Memória",
+    "História da Computação",
+    "Otimização de Desempenho"
+  ]
+}
+```

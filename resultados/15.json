@@ -1,0 +1,30 @@
+```json
+{
+  "numero": "15",
+  "conteudo_principal": "Metodologias Ágeis (SCRUM) e os papéis de seus participantes (Scrum Master e Product Owner).",
+  "justificativa_correta": "A alternativa C é a correta porque as afirmações I e II descrevem papéis fundamentais e corretos dentro do framework SCRUM. \n\n**Afirmação I (Correta):** O Scrum Master é um líder servidor que guia e treina a equipe de desenvolvimento, o Product Owner e a organização sobre os princípios, práticas e valores do Scrum. Sua função é assegurar que o time entenda e utilize efetivamente a metodologia, removendo impedimentos e facilitando os eventos Scrum. Portanto, 'guiar a equipe no uso efetivo da metodologia SCRUM' é uma de suas responsabilidades centrais.\n\n**Afirmação II (Correta):** O Product Owner é o responsável por maximizar o valor do produto, sendo o principal elo entre o time de desenvolvimento e as partes interessadas do negócio. Ele gerencia o Product Backlog, define e comunica a visão do produto, prioriza os itens do backlog e assegura que a equipe esteja construindo o produto certo. Ao focar no 'o quê' e 'porquê' do produto (valor de negócio, necessidades do cliente), ele naturalmente evita que a equipe se desvie para questões técnicas que não agreguem valor significativo ao produto, mantendo o foco nos resultados e no valor entregue.\n\n**Afirmação III (Incorreta):** No Scrum, a equipe de desenvolvimento é auto-organizada e multifuncional. Nem o Scrum Master nem o Product Owner têm 'autoridade direta' sobre a equipe no sentido de dar ordens sobre como o trabalho deve ser feito ou de atribuir tarefas individuais. O Product Owner define *o que* deve ser feito (o Product Backlog), e o Scrum Master atua como facilitador e treinador, protegendo a equipe e removendo impedimentos. A decisão de *como* o trabalho será executado e a organização das tarefas são responsabilidades da própria equipe de desenvolvimento.",
+  "justificativas_erradas": {
+    "A": "Incorreta. Embora a afirmação II esteja correta, a afirmação I também está, tornando esta alternativa incompleta.",
+    "B": "Incorreta. A afirmação III está errada, pois no Scrum, a equipe de desenvolvimento é auto-organizada e nem o Scrum Master nem o Product Owner exercem autoridade direta sobre como a equipe realiza o trabalho.",
+    "D": "Incorreta. A afirmação III está errada, invalidando esta alternativa.",
+    "E": "Incorreta. A afirmação III está errada, invalidando esta alternativa."
+  },
+  "dcn_relacionadas": [
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: XI - empreender e exercer liderança, coordenação e supervisão na sua área de atuação profissional; XII - ser capaz de realizar trabalho cooperativo e entender a força que dele pode ser derivada.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: IX - gerenciar projetos de desenvolvimento de sistemas computacionais; XI - escolher e aplicar boas práticas e técnicas que conduzam ao raciocínio rigoroso no planejamento, na execução e no acompanhamento, na medição e gerenciamento geral da qualidade de sistemas computacionais;",
+    "2.4. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Engenharia de Software: I - investigar, compreender e estruturar as características de domínios de aplicação em diversos contextos que levem em consideração questões éticas, sociais, legais e econômicas, individualmente e/ou em equipe; II - compreender e aplicar processos, técnicas e procedimentos de construção, evolução e avaliação de software; VII - gerenciar projetos de software conciliando objetivos conflitantes, com limitações de custos, tempo e com análise de riscos; XI - conceber, aplicar e validar princípios, padrões e boas práticas no desenvolvimento de software; XIV - identificar e analisar problemas avaliando as necessidades dos clientes, especificar os requisitos de software, projetar, desenvolver, implementar, verificar e documentar soluções de software baseadas no conhecimento apropriado de teorias, modelos e técnicas.",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: VII - aplicar métodos e técnicas de negociação; VIII - gerenciar equipes de trabalho no desenvolvimento e evolução de Sistemas de Informação; XI - aplicar conceitos, métodos, técnicas e ferramentas de gerenciamento de projetos em sua área de atuação; XIII - aprimorar experiência das partes interessadas na interação com a organização incluindo aspectos da relação humano-computador.",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: engenharia de software."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Scrum",
+    "Metodologias Ágeis",
+    "Engenharia de Software",
+    "Gerenciamento de Projetos",
+    "Product Owner",
+    "Scrum Master",
+    "Desenvolvimento Ágil"
+  ]
+}
+```

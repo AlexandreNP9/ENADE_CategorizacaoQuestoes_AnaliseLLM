@@ -1,0 +1,26 @@
+```json
+{
+  "numero": "26",
+  "conteudo_principal": "Interação Humano-Computador (IHC), especificamente o tema de Interfaces Adaptativas, seus níveis de adaptação (conteúdo, navegação e apresentação) e as técnicas associadas a cada um.",
+  "justificativa_correta": "A alternativa correta é a A, pois apenas a afirmativa I está correta. No contexto de interfaces adaptativas, a adaptação de conteúdo refere-se à modificação da informação em si que é apresentada ao usuário. As técnicas listadas na afirmativa I – fragmentos de texto (partes do texto que podem ser inseridas ou removidas), fragmentos condicionais (blocos de texto exibidos ou ocultados com base em condições), páginas variantes (versões alternativas de uma página) e abordagem baseada em frames (onde o conteúdo de diferentes frames pode ser modificado) – são todas estratégias válidas para personalizar o conteúdo de forma dinâmica para o usuário.",
+  "justificativas_erradas": {
+    "II": "A afirmativa II está incorreta. As técnicas de 'layouts de página' e 'guias de estilos' pertencem ao nível de **adaptação de apresentação**, pois se referem à forma visual como o design e a estrutura dos elementos são dispostos na interface (estilo visual, organização gráfica), e não diretamente às opções de navegação ou aos caminhos que o usuário pode seguir. A adaptação de navegação se concentra em auxiliar o usuário a se mover pelo sistema (e.g., mostrando/ocultando links, reordenando-os ou fornecendo sugestões).",
+    "III": "A afirmativa III está incorreta. As técnicas mencionadas ('orientação direta', 'anotação de links', 'apresentação e ocultação' e 'ordenação de links') são, na verdade, técnicas de **adaptação de navegação** (também conhecida como suporte à navegação adaptativa). Elas visam guiar o usuário no processo de explorar o conteúdo, por exemplo, sugerindo caminhos (orientação direta), adicionando informações visuais a links para indicar relevância (anotação de links), tornando links visíveis ou invisíveis (apresentação e ocultação) ou alterando a ordem de exibição de links. A adaptação de apresentação, por sua vez, lida com aspectos visuais como cores, fontes, tamanhos e arranjo geral dos elementos na tela, sem alterar as opções de navegação ou o conteúdo textual em si."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'interação humano-computador'.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'XIII - aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multimídia e sistemas móveis.'",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'VIII - avaliar criticamente projetos de sistemas de computação;'"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Interação Humano-Computador",
+    "IHC",
+    "Interfaces Adaptativas",
+    "Personalização de Interfaces",
+    "Adaptação de Conteúdo",
+    "Adaptação de Navegação",
+    "Adaptação de Apresentação"
+  ]
+}
+```

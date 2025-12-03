@@ -1,0 +1,26 @@
+```json
+{
+  "numero": "18",
+  "conteudo_principal": "A questão aborda os fundamentos do Aprendizado de Máquina (Machine Learning), especificamente a distinção entre aprendizado supervisionado e não supervisionado, suas características, objetivos e exemplos de técnicas.",
+  "justificativa_correta": "A alternativa correta é a E, pois as afirmações I, III e IV estão corretas:\n\n*   **Afirmação I (Correta):** A regressão linear é um modelo clássico de aprendizado supervisionado. Neste tipo de modelo, o algoritmo é treinado com um conjunto de dados que inclui tanto as variáveis de entrada (características) quanto as variáveis de saída desejadas (rótulos contínuos). O objetivo é aprender uma função que mapeie as entradas para as saídas, permitindo prever valores para novas entradas.\n*   **Afirmação III (Correta):** O aprendizado não supervisionado é fundamentalmente utilizado para descobrir estruturas, padrões, agrupamentos ou anomalias em dados que não possuem rótulos pré-definidos. O entendimento dos dados é feito por meio do reconhecimento dessas características intrínsecas, sem uma 'resposta' correta para guiar o aprendizado. Técnicas como clustering (agrupamento) são exemplos claros disso.\n*   **Afirmação IV (Correta):** O principal objetivo do aprendizado supervisionado é treinar um modelo com dados conhecidos (rotulados) para que ele possa generalizar e tomar decisões ou fazer previsões precisas (classificação ou regressão) quando confrontado com novos dados, ou seja, dados que não foram utilizados no treinamento. A capacidade de generalização e precisão em dados não vistos é uma métrica crucial para modelos supervisionados.",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta porque a 'diferença entre a saída desejada e a saída gerada' (o erro) é um conceito central no aprendizado *supervisionado*. Neste paradigma, o modelo tem acesso aos rótulos verdadeiros (saídas desejadas) e ajusta seus parâmetros para minimizar a diferença entre suas previsões e esses rótulos. No aprendizado *não supervisionado*, não há saídas desejadas (rótulos) para comparar; o objetivo é encontrar estruturas nos dados. As métricas de avaliação no aprendizado não supervisionado são diferentes, como a coesão de clusters ou o erro de reconstrução em autoencoders, e não um erro diretamente comparável a um rótulo conhecido."
+  },
+  "dcn_relacionadas": [
+    "**3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura:** Este item lista 'inteligência artificial e computacional' como um dos conteúdos tecnológicos e básicos comuns a todos os cursos de computação. O Aprendizado de Máquina é um subcampo fundamental da Inteligência Artificial e Computacional, o que torna esta área de conhecimento essencial para a formação do egresso.",
+    "**1.2. Perfil dos Egressos dos Cursos de Bacharelado em Ciência da Computação:**\n    *   'Possuam sólida formação em Ciência da Computação e Matemática que os capacitem a construir aplicativos de propósito geral, ferramentas e infraestrutura de software de sistemas de computação e de sistemas embarcados, gerar conhecimento científico e inovação e que os incentivem a estender suas competências à medida que a área se desenvolva;' - O aprendizado de máquina é uma área de constante inovação e desenvolvimento de aplicações e ferramentas, alinhando-se a este perfil.",
+    "**2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação:**\n    *   'I - compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações;' - A questão exige a compreensão dos conceitos, princípios e teorias fundamentais do aprendizado de máquina.\n    *   'V - especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas;' - A aplicação do aprendizado de máquina no desenvolvimento de sistemas requer essas habilidades.\n    *   'VI - conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores envolvidos;' - A escolha e aplicação de técnicas de aprendizado de máquina para resolver problemas complexos demanda essa competência."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Aprendizado de Máquina",
+    "Machine Learning",
+    "Aprendizado Supervisionado",
+    "Aprendizado Não Supervisionado",
+    "Regressão Linear",
+    "Reconhecimento de Padrões",
+    "Inteligência Artificial",
+    "Generalização de Modelos"
+  ]
+}
+```

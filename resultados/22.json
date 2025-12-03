@@ -1,0 +1,30 @@
+```json
+{
+  "numero": "22",
+  "conteudo_principal": "Modelagem de Dados (Diagrama Entidade-Relacionamento e Mapeamento para o Modelo Lógico Relacional)",
+  "justificativa_correta": "A alternativa A é a mais adequada porque aplica corretamente as regras de mapeamento de um Modelo Conceitual (DER) para um Modelo Lógico Relacional, especialmente para relacionamentos um para muitos (1:N).\n1.  **Entidades como Tabelas:** Cada entidade (PESSOA, TIPO_PET, PET) é corretamente convertida em uma tabela separada.\n2.  **Atributos e Chaves Primárias:** Os atributos e as chaves primárias (`cpf` para PESSOA, `codigo` para TIPO_PET, `codigo` para PET) são mantidos corretamente em suas respectivas tabelas.\n3.  **Relacionamento 'pertencer' (TIPO_PET (1,1) --- PET (1,n)):** Este é um relacionamento 1:N (um tipo de pet para muitos pets). A chave primária da entidade do lado '1' (TIPO_PET.codigo) migra como chave estrangeira (`codigo_tipo_pet`) para a entidade do lado 'N' (PET). A cardinalidade (1,1) no lado TIPO_PET indica que todo PET deve ter um TIPO_PET, tornando `codigo_tipo_pet` obrigatório (NOT NULL, embora a nulidade não seja explicitada nas opções, a estrutura é a correta).\n4.  **Relacionamento 'adotar' (PESSOA (1,1) --- PET (0,n)):** Este também é um relacionamento 1:N (uma pessoa pode adotar muitos pets, e um pet, se adotado, é por uma pessoa). A chave primária da entidade do lado '1' (PESSOA.cpf) migra como chave estrangeira (`adotante`) para a entidade do lado 'N' (PET). A cardinalidade (0,n) no lado PET indica que um PET pode ou não ser adotado, implicando que `adotante` pode ser nulo (NULLable, novamente, a nulidade não é explicitada, mas o posicionamento da FK é correto).\nAssim, a tabela PET contém as chaves estrangeiras `codigo_tipo_pet` e `adotante`, referenciando TIPO_PET e PESSOA, respectivamente, o que está em conformidade com as regras de normalização e mapeamento.",
+  "justificativas_erradas": {
+    "B": "Esta alternativa está incorreta porque inverte a direção das chaves estrangeiras para relacionamentos 1:N. Ela coloca a chave estrangeira `codigo_pet` nas tabelas `PESSOA` e `TIPO_PET`, referenciando `PET`. O correto seria a chave primária de PESSOA e TIPO_PET serem chaves estrangeiras na tabela PET, que é o lado 'muitos' dos relacionamentos 'adotar' e 'pertencer', respectivamente.",
+    "C": "Esta alternativa está parcialmente correta para o relacionamento 'pertencer', com `codigo_tipo_pet` em PET referenciando TIPO_PET. No entanto, está incorreta para o relacionamento 'adotar' porque coloca a chave estrangeira `codigo_pet` na tabela `PESSOA` referenciando `PET`. Isso implicaria que uma pessoa pode adotar apenas um pet (N:1 de PET para PESSOA), o que contradiz a cardinalidade do DER que indica que 'uma PESSOA pode adotar zero ou muitos PETs' (1:N de PESSOA para PET).",
+    "D": "Esta alternativa está incorreta porque apresenta uma única tabela denormalizada `PET_PESSOA` que agrupa todos os atributos das três entidades (`PESSOA`, `TIPO_PET`, `PET`). Isso gera redundância de dados (por exemplo, nome da pessoa e descrição do tipo de pet seriam repetidos para cada pet), anomalias de atualização e não reflete adequadamente a estrutura das entidades e seus relacionamentos independentes, violando princípios de normalização de bancos de dados.",
+    "E": "Esta alternativa está incorreta porque, embora coloque `adotante` como chave estrangeira em PET corretamente, ela também inclui o atributo `descricao_tipo_pet` (que pertence a TIPO_PET) diretamente na tabela PET. Isso viola a Terceira Forma Normal (3FN), pois `descricao_tipo_pet` depende de `codigo_tipo_pet` (que é uma chave estrangeira em PET), e não da chave primária `codigo` de PET. Essa inclusão gera redundância e anomalias de atualização."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: banco de dados;",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: VIII - Avaliar criticamente projetos de sistemas de computação;",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: V - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas;",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: XI - Escolher e aplicar boas práticas e técnicas que conduzam ao raciocínio rigoroso no planejamento, na execução e no acompanhamento, na medição e gerenciamento geral da qualidade de sistemas computacionais;",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: VI - Modelar e implementar soluções de Tecnologia de Informação em variados domínios de aplicação;"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Modelagem de Dados",
+    "Banco de Dados",
+    "DER",
+    "Modelo Relacional",
+    "Chaves Estrangeiras",
+    "Cardinalidade",
+    "Mapeamento"
+  ]
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "numero": "02",
+  "conteudo_principal": "Interpretação textual, análise crítica de informações e avaliação de argumentos sobre um problema socioeconômico (desperdício de alimentos) e suas causas e soluções, com foco na distinção entre características estéticas e de qualidade de produtos.",
+  "justificativa_correta": "A alternativa correta é a **C - A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.**\n\n**Justificativa para a Asserção I (Verdadeira):**\nO Texto I (o infográfico) apresenta de forma clara e concisa critérios para diferenciar uma hortaliça 'feia' (com problemas estéticos superficiais, mas boa para consumo) de uma hortaliça 'estragada' (com problemas que comprometem sua qualidade ou segurança alimentar). Esta distinção é exatamente o ponto central da argumentação do Texto II, que sugere a necessidade de 'conscientizar os diversos elos da cadeia produtiva, especialmente varejistas e consumidores, para que sejam esclarecidos sobre quais aspectos da aparência das hortaliças comprometem a qualidade' como uma solução para o desperdício. Portanto, o Texto I sintetiza uma informação principal e fundamental do Texto II.\n\n**Justificativa para a Asserção II (Falsa):**\nO Texto II afirma que 'Quanto maior a exigência do mercado por hortaliças de aparência perfeita, maior o desperdício de alimentos.' Essa é uma observação geral ou uma projeção para um cenário de alta exigência estética. No entanto, a asserção II especifica que 'o aumento das perdas na cadeia produtiva de hortaliças **no Brasil** é proporcional à **elevação** de exigências dos consumidores pela aparência'. O Texto II descreve o mercado brasileiro como 'pouco exigente, que gera desperdício no varejo e nas residências' (principalmente por produtos de baixa qualidade efetiva, como murchos, contaminados ou machucados, chegando ao consumidor). Ele *alerta* que *replicar* a experiência europeia de *exigir* hortaliças esteticamente perfeitas no Brasil levaria a 'produtos sendo desprezados ainda na etapa de produção', ou seja, a novas perdas em um novo cenário de alta exigência. O texto não indica que as exigências estéticas *já estão se elevando no Brasil* e, consequentemente, que as perdas *estão aumentando proporcionalmente* a essa elevação no contexto atual do mercado brasileiro. A relação de proporcionalidade e elevação é apresentada como uma condição geral ou um risco futuro, não como uma descrição do cenário presente e em evolução no Brasil, que tem características de desperdício distintas daquelas causadas por alta exigência estética (embora também haja desperdício por preconceito estético, mas não é central ao *aumento* *proporcional* à *elevação* de exigências como descrito na assertiva).",
+  "justificativas_erradas": {
+    "A": "Incorreta. A asserção II é falsa. Além disso, mesmo que fosse verdadeira, ela não justificaria a asserção I. A asserção I trata da função do Texto I (sintetizar a distinção entre estética e qualidade), enquanto a asserção II trata de uma causa do desperdício de alimentos. Não há uma relação de causa e efeito 'porque' entre elas.",
+    "B": "Incorreta. Embora a relação de justificação entre I e II seja de fato incorreta ('mas a II não é uma justificativa correta da I'), a assertiva está errada porque a proposição II é falsa.",
+    "D": "Incorreta. A asserção I é verdadeira e a asserção II é falsa. Esta opção inverte a veracidade de ambas.",
+    "E": "Incorreta. A asserção I é verdadeira, o que invalida esta opção que afirma que ambas são falsas."
+  },
+  "dcn_relacionadas": [
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura - do conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas;",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura - da visão crítica e criativa na identificação e resolução de problemas contribuindo para o desenvolvimento de sua área;",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura - da capacidade de utilizar racionalmente os recursos disponíveis de forma transdisciplinar;",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados (oral e escrito);",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura - Avaliar criticamente projetos de sistemas de computação;"
+  ],
+  "nivel_cognitivo": "Alto",
+  "tags": [
+    "Interpretação de Texto",
+    "Análise Crítica",
+    "Raciocínio Lógico",
+    "Problemas Sociais",
+    "Desperdício de Alimentos",
+    "DCN - Formação Humanística e Social"
+  ]
+}
+```

@@ -1,0 +1,27 @@
+```json
+{
+  "numero": "10",
+  "conteudo_principal": "Estruturas de Dados Abstratas (TADs) e suas características operacionais, incluindo Pilhas, Filas, Deques e Listas Ligadas.",
+  "justificativa_correta": "A alternativa correta é a B porque cada descrição de classe corresponde a uma estrutura de dados específica:\n*   **Classe A:** 'os objetos são organizados em uma ordem linear e podem ser inseridos somente no início ou no final dessa sequência' descreve um Deque (Double-ended Queue), que permite inserção e remoção em ambas as extremidades.\n*   **Classe B:** 'os objetos são organizados em uma ordem linear determinada por uma referência ao próximo objeto' caracteriza uma Lista Simplesmente Ligada (ou encadeada), onde cada elemento contém uma referência para o próximo.\n*   **Classe C:** 'os objetos são removidos na ordem oposta em que foram inseridos' é a definição do princípio LIFO (Last-In, First-Out), que é a base de uma Pilha.\n*   **Classe D:** 'o elemento a ser removido é sempre aquele que foi inserido primeiro' é a definição do princípio FIFO (First-In, First-Out), que é a base de uma Fila.\nA sequência 'Deque, lista simplesmente ligada, pilha e fila' da alternativa B corresponde exatamente a essas definições.",
+  "justificativas_erradas": {
+    "A": "Incorreta. A 'Lista circular' não corresponde à descrição da Classe A. Embora seja uma lista linear, a descrição da Classe A foca na capacidade de inserir nas duas extremidades, o que é um Deque. A Classe B, C e D estão corretas nesta alternativa, mas a primeira não.",
+    "C": "Incorreta. A 'Lista duplamente ligada' não se encaixa perfeitamente na descrição da Classe A, que é um Deque. Além disso, a ordem das estruturas para as Classes C ('fila') e D ('pilha') está invertida em relação às suas definições (fila é FIFO, pilha é LIFO).",
+    "D": "Incorreta. Todas as associações estão incorretas. A 'Pilha' (LIFO) não corresponde à Classe A (Deque), a 'Fila' (FIFO) não corresponde à Classe B (Lista Ligada), o 'Deque' não corresponde à Classe C (Pilha) e a 'Lista simplesmente encadeada' não corresponde à Classe D (Fila).",
+    "E": "Incorreta. A 'Pilha' não corresponde à descrição da Classe B. A Classe B descreve uma lista ligada (referência ao próximo objeto), enquanto uma pilha é uma estrutura LIFO. A ordem das estruturas está incorreta para a segunda descrição."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: abstração e estruturas de dados; algoritmos e complexidade.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: I - compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações; X - aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação."
+  ],
+  "nivel_cognitivo": "Baixo",
+  "tags": [
+    "Estruturas de Dados",
+    "Pilha",
+    "Fila",
+    "Deque",
+    "Lista Ligada",
+    "Conceitos Fundamentais",
+    "Java Collections"
+  ]
+}
+```

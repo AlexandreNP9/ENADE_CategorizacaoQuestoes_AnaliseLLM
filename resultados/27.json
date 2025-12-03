@@ -1,0 +1,29 @@
+```json
+{
+  "numero": "27",
+  "conteudo_principal": "Estatística Descritiva e Inferencial Básica: Distribuição Normal (Gaussiana) e a Regra Empírica (68-95-99.7). Análise de dados a partir de histogramas e medidas de tendência central e dispersão.",
+  "justificativa_correta": "A questão apresenta um histograma de uma amostra de servidores com capacidade de requisições simultâneas, indicando uma distribuição que visualmente se aproxima de uma distribuição normal. São fornecidas a média (μ = 171) e o desvio padrão (σ = 10) da amostra. Para resolver a questão, é necessário aplicar a Regra Empírica (ou Regra 68-95-99.7) da distribuição normal.\n\nA Regra Empírica estabelece que, para uma distribuição aproximadamente normal:\n*   Aproximadamente 68,26% dos dados estão dentro de 1 desvio padrão da média (μ ± σ).\n*   Aproximadamente 95,44% dos dados estão dentro de 2 desvios padrão da média (μ ± 2σ).\n*   Aproximadamente 99,74% dos dados estão dentro de 3 desvios padrão da média (μ ± 3σ).\n\nCalculando o intervalo para 2 desvios padrão da média:\n[μ - 2σ, μ + 2σ] = [171 - 2 * 10, 171 + 2 * 10] = [171 - 20, 171 + 20] = [151, 191].\n\nDe acordo com a Regra Empírica, aproximadamente 95,44% dos servidores terão capacidade dentro do intervalo [151, 191]. A alternativa D corresponde a essa porcentagem e intervalo, tornando-a a resposta correta.",
+  "justificativas_erradas": {
+    "A": "A alternativa A sugere 34,13% de chance no intervalo [141, 201]. O intervalo [141, 201] corresponde a μ ± 3σ (171 - 3*10 = 141; 171 + 3*10 = 201). Para uma distribuição normal, este intervalo contém aproximadamente 99,74% dos dados, não 34,13%. O valor 34,13% representa a probabilidade entre a média e um desvio padrão (i.e., aproximadamente 68,26% / 2).",
+    "B": "A alternativa B sugere 34,13% de chance no intervalo [161, 181]. O intervalo [161, 181] corresponde a μ ± 1σ (171 - 1*10 = 161; 171 + 1*10 = 181). Para uma distribuição normal, este intervalo contém aproximadamente 68,26% dos dados, não 34,13%.",
+    "C": "A alternativa C sugere 76,68% de chance no intervalo [171, 191]. O intervalo [171, 191] corresponde à metade superior do intervalo de μ ± 2σ (de μ até μ + 2σ). A probabilidade para o intervalo [μ, μ + 2σ] é aproximadamente 95,44% / 2 = 47,72%, não 76,68%.",
+    "E": "A alternativa E sugere 99,74% de chance no intervalo [161, 181]. O intervalo [161, 181] corresponde a μ ± 1σ, que contém aproximadamente 68,26% dos dados. O valor 99,74% está associado ao intervalo μ ± 3σ ([141, 201]), não ao intervalo μ ± 1σ."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'probabilidade e estatística'.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'V - compreender e explicar as dimensões quantitativas de um problema;'.",
+    "3.2. Conteúdos Curriculares da Formação Tecnológica e Básica dos Cursos de Bacharelado em Ciência da Computação: 'modelos estatísticos e probabilísticos', 'métodos quantitativos da computação'."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Estatística",
+    "Probabilidade",
+    "Distribuição Normal",
+    "Regra Empírica",
+    "Histograma",
+    "Média",
+    "Desvio Padrão",
+    "Análise de Dados"
+  ]
+}
+```

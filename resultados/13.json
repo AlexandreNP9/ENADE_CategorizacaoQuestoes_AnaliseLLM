@@ -1,0 +1,30 @@
+```json
+{
+  "numero": "13",
+  "conteudo_principal": "Metodologias de Desenvolvimento de Software, especificamente o modelo Iterativo e Evolutivo, e suas características, benefícios e práticas associadas, com ênfase em aspectos de qualidade, usabilidade e acessibilidade.",
+  "justificativa_correta": "A alternativa E está correta. O texto descreve o desenvolvimento iterativo e evolutivo como uma abordagem que busca \"refinamentos e incrementos sucessivos\" e \"realimentação e adaptação cíclicas para convergir para um sistema adequado\". Um 'sistema adequado' na engenharia de software moderna e responsável implica em alta qualidade, que inclui usabilidade e, fundamentalmente, acessibilidade. A acessibilidade garante que o sistema possa ser utilizado por um público o mais amplo possível, incluindo pessoas com deficiência, alinhando-se com princípios éticos e sociais. O desenvolvimento iterativo, com seus ciclos contínuos de análise, projeto, implementação e teste, é ideal para integrar e verificar critérios de acessibilidade e usabilidade desde as primeiras iterações, permitindo a adaptação e correção precoce de problemas. As DCNs de Computação também reforçam a importância de questões éticas, sociais e o conhecimento em Interação Humano-Computador, onde a acessibilidade é um pilar.",
+  "justificativas_erradas": {
+    "A": "Esta alternativa está incorreta. Um dos grandes benefícios e características do desenvolvimento iterativo e evolutivo é a capacidade de *gerenciar e abraçar a mudança* nos requisitos ao longo do ciclo de vida do projeto, utilizando a realimentação para adaptar o sistema. A ideia de 'evitar mudanças' é mais associada a modelos sequenciais e preditivos (como o Cascata), que são mais rígidos.",
+    "B": "Esta alternativa está incorreta. O texto da questão afirma explicitamente que o desenvolvimento iterativo e evolutivo \"estabelece ciclos de desenvolvimento, com duração fixa, chamados iterações\". A duração fixa (time-box) das iterações é uma característica central para o planejamento e controle do processo, reduzindo riscos e garantindo entregas regulares. O que pode ser adaptado é o escopo dentro da iteração, mas não a sua duração.",
+    "C": "Esta alternativa está incorreta. No desenvolvimento iterativo, cada iteração produz um \"sistema parcial, executável, testável e integrável\". O feedback do usuário, incluindo testes de usabilidade, deve ser realizado *continuamente* e *em cada iteração* (ou sempre que houver funcionalidades prontas para teste) para permitir \"refinamentos e incrementos sucessivos\" e \"realimentação e adaptação cíclicas\". Esperar até o último ciclo para testar a usabilidade contradiz o princípio de detecção e correção precoce de problemas, que é uma vantagem fundamental das abordagens iterativas.",
+    "D": "Esta alternativa é menos precisa ou incompleta em comparação com a alternativa E, e portanto, considerada incorreta como a melhor opção. Embora o 'sistema parcial, executável' de uma iteração possa de fato ser apresentado ao cliente para obter feedback, funcionando de forma similar a um protótipo, em um desenvolvimento iterativo-incremental, este 'subsistema' é tipicamente um *incremento* do produto final, construído para ser evoluído e não descartado. A sua natureza é mais de uma parte funcional em evolução do que um mero protótipo no sentido exploratório ou descartável. A opção E, por outro lado, aborda um princípio de qualidade e responsabilidade social que o modelo iterativo está apto a contemplar continuamente."
+  },
+  "dcn_relacionadas": [
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'do conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas;', 'da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;' (A acessibilidade se alinha a esses aspectos éticos, sociais e de impacto.)",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'VIII - avaliar criticamente projetos de sistemas de computação;' (Avaliação crítica inclui qualidade, usabilidade e acessibilidade.)",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'VII - empregar metodologias que visem garantir critérios de qualidade ao longo de todas as etapas de desenvolvimento de uma solução computacional;' (A acessibilidade é um critério de qualidade fundamental); 'XIII - aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multimídia e sistemas móveis.' (Acessibilidade é um princípio chave da IHC).",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'engenharia de software;' (Metodologias iterativas são parte da Engenharia de Software); 'interação humano-computador;' (Diretamente relacionada a usabilidade e acessibilidade); 'ética e legislação;', 'computação e sociedade;' (Aspectos sociais e éticos da acessibilidade)."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Engenharia de Software",
+    "Desenvolvimento Iterativo e Evolutivo",
+    "Ciclo de Vida do Software",
+    "Qualidade de Software",
+    "Usabilidade",
+    "Acessibilidade",
+    "Interação Humano-Computador",
+    "Gerenciamento de Requisitos"
+  ]
+}
+```

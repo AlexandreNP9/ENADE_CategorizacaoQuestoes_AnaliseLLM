@@ -1,0 +1,27 @@
+```json
+{
+  "numero": "16",
+  "conteudo_principal": "Lógica Digital e Circuitos Combinacionais (Álgebra Booleana)",
+  "justificativa_correta": "Para determinar a expressão booleana correspondente ao circuito, é necessário traçar o fluxo de sinais e as operações lógicas de cada porta, começando pelas entradas e avançando em direção à saída:\n1.  A entrada X1 passa por uma porta NOT, resultando em X1' (X1 invertido).\n2.  A entrada X2 passa por uma porta NOT, resultando em X2' (X2 invertido).\n3.  A entrada X3 vai diretamente para uma porta AND.\n4.  A porta AND recebe X3 e a saída da porta NOT de X2 (X2'). A saída desta porta AND é, portanto, (X3 . X2').\n5.  A porta OR recebe como entradas a saída da porta NOT de X1 (X1') e a saída da porta AND (X3 . X2'). A saída desta porta OR é (X1' + (X3 . X2')).\n6.  Finalmente, a saída da porta OR (X1' + (X3 . X2')) passa por uma porta NOT. Isso inverte toda a expressão, resultando na saída final do circuito: (X1' + (X3 . X2'))'.\n\nA alternativa B é (X3 . (X2') + (X1'))'. Pela propriedade comutativa da operação OR (A + B = B + A), esta expressão é equivalente a ( (X1') + (X3 . (X2')) )', que corresponde à lógica do circuito passo a passo.",
+  "justificativas_erradas": {
+    "A": "A alternativa A, (X3 . X2') + X1', representa a expressão booleana do circuito antes da última porta NOT. Ela não inclui a inversão final de todo o resultado do circuito, tornando-a incorreta para a saída final.",
+    "C": "A alternativa C, ((X3 . X2)' + X1')', apresenta um erro na aplicação da porta NOT. Ela inverte o resultado de (X3 . X2) como um todo antes da porta OR, quando na verdade apenas X2 é invertido antes da porta AND. Além disso, a expressão interna não corresponde à ordem das operações.",
+    "D": "A alternativa D, (X3 . X2)' + X1', contém dois erros principais: primeiro, inverte o resultado de (X3 . X2) em vez de apenas X2, e segundo, não aplica a inversão final que ocorre após a porta OR, como observado no circuito.",
+    "E": "A alternativa E, ((X3 . X2')' + X1')', inverte incorretamente a saída da porta AND (X3 . X2') antes de passá-la para a porta OR. No circuito, a saída da porta AND é (X3 . X2') e não é invertida antes da porta OR."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: circuitos digitais, arquitetura e organização de computadores, lógica, matemática discreta.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: I - compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações; V - especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas.",
+    "2.3. Competências e Habilidades dos Cursos de Bacharelado em Engenharia de Computação: I - planejar, especificar, projetar, implementar, testar, verificar e validar sistemas de computação (sistemas digitais), incluindo computadores, sistemas baseados em microprocessadores, sistemas de comunicações e sistemas de automação, seguindo teorias, princípios, métodos, técnicas e procedimentos da Computação e da Engenharia."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Lógica Digital",
+    "Álgebra Booleana",
+    "Circuitos Combinacionais",
+    "Portas Lógicas",
+    "Engenharia de Computação",
+    "Ciência da Computação"
+  ]
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "08",
+  "conteudo_principal": "A questão aborda conceitos de filosofia política e sociologia, especificamente os modelos de democracia majoritária e democracia consensual, conforme apresentados em um texto. O foco está na compreensão e análise crítica desses modelos e suas implicações para o 'governo do povo'. Embora não seja um conteúdo técnico de computação, a questão avalia a capacidade de interpretação de texto e o conhecimento de aspectos sociais, políticos e humanísticos, que são considerados parte da formação geral do egresso.",
+  "justificativa_correta": "A alternativa correta é a D, que afirma que as sentenças I, III e IV estão corretas.\n\n**Análise da Afirmação I (Correta):** O texto contrapõe a democracia majoritária, que 'governa para a maioria do povo', à democracia consensual, que busca 'governar para o máximo possível de pessoas' e 'consensos mais amplos no que é interesse de todos'. Isso implica que o 'bem comum' em um modelo consensual pode ir além da simples opinião da maioria, considerando interesses que podem não ser os da maioria. Portanto, o bem comum nem sempre está associado *apenas* às opiniões da maioria, especialmente em um sistema que valoriza o consenso e a inclusão de minorias.\n\n**Análise da Afirmação III (Correta):** O texto descreve a democracia majoritária como um modelo 'simples e direto' que governa 'para a maioria do povo'. Um cenário de 'polarização, marcada pela alta competitividade e combatividade entre posições divergentes' é condizente com um modelo onde a maioria impõe sua vontade sobre a minoria, sem a busca por 'consensos mais amplos' que caracteriza a democracia consensual. A polarização é o oposto do consenso, logo, se alinha ao modelo majoritário.\n\n**Análise da Afirmação IV (Correta):** A democracia consensual, segundo o texto, busca 'governar para o máximo possível de pessoas' e 'consensos mais amplos no que é interesse de todos'. Isso 'pressupõe' que a situação política no poder não se limite a atender apenas a maioria, mas 'considere em suas decisões as necessidades das minorias' para abranger 'todo o povo' ou a 'máximo possível de pessoas'. Isso é uma característica fundamental do modelo consensual em oposição ao majoritário.",
+  "justificativas_erradas": {
+    "II": "A afirmação 'A democracia consensual é caracterizada pelo consenso a ser alcançado entre situação e oposição, nas decisões governamentais' é incorreta. Embora o texto mencione que o desafio da democracia consensual 'pressupõe lideranças políticas mais maduras, tanto no governo quanto na oposição', e que ela busca 'consensos mais amplos no que é interesse de todos', a característica central não é *apenas* o consenso entre situação e oposição. O conceito de 'governar para o máximo possível de pessoas' e 'interesses de todos' vai além de um acordo exclusivo entre os grandes blocos políticos, incluindo a consideração das minorias e diferentes grupos da sociedade. Um consenso restrito entre situação e oposição poderia ainda negligenciar as minorias, o que contraria o espírito da democracia consensual conforme descrita no texto."
+  },
+  "dcn_relacionadas": [
+    "PARECER CNE/CES Nº: 136/2012 - Formação Humanística e Social",
+    "Art. 4º, inciso I - de conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas;",
+    "Art. 4º, inciso II - da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;",
+    "Art. 4º, inciso III - de visão crítica e criativa na identificação e resolução de problemas contribuindo para o desenvolvimento de sua área;",
+    "PARECER CNE/CES Nº: 136/2012 - O estudo de Sociologia para prover o profissional de computação de posição crítica nos aspectos da vida social e cultural da qual os profissionais fazem parte; (...) o desenvolvimento do espírito crítico no sentido de uma qualificação baseada no desenvolvimento autêntico e integral do sujeito como indivíduo e como ator social, postulando não só a sua inserção mas também a compreensão e o questionamento do mundo tecnológico e do mundo sociocultural que o circunda.",
+    "PARECER CNE/CES Nº: 136/2012 - O estudo de Filosofia para prover o profissional de computação da necessidade de ampliar a compreensão da realidade, pela busca incessante do conhecimento."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Interpretação de Texto",
+    "Conhecimentos Gerais",
+    "Ciências Humanas",
+    "Filosofia Política",
+    "Sociologia",
+    "Democracia",
+    "Formação Humanística e Social"
+  ]
+}
+```

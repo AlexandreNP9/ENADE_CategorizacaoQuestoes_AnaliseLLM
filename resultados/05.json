@@ -1,0 +1,26 @@
+```json
+{
+  "numero": "05",
+  "conteudo_principal": "A questão avalia a capacidade de compreensão e interpretação de dados estatísticos e textuais, análise crítica de informações socioambientais e éticas, e a aplicação de conhecimentos gerais sobre direitos humanos e constitucionais, especialmente em contextos de vulnerabilidade social. Embora não seja uma questão de computação em si, ela testa a formação humanística e a capacidade de um profissional de TI de analisar e se posicionar criticamente diante de problemas sociais complexos, um aspecto fundamental da formação do egresso, conforme as DCN.",
+  "justificativa_correta": "A afirmação I está correta. O Texto I explicita que o índice de óbitos por suicídio na população indígena é três vezes maior que a média nacional, com uma concentração alarmante entre crianças e adolescentes (10 a 19 anos). Um índice tão elevado e específico em um grupo vulnerável como crianças e adolescentes indígenas é um forte indicativo de que seus direitos fundamentais, como o direito à vida, à saúde, ao bem-estar e à preservação cultural, não estão sendo adequadamente garantidos. Portanto, a necessidade de ações focadas nesses direitos é uma conclusão lógica e direta dos dados apresentados.",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta. A descrição do mapa no Texto II não indica que o Pará e Tocantins possuem os maiores índices de suicídio de indígenas na faixa etária de 10 a 14 anos. Pelo contrário, a descrição aponta para 'clusters mais densos de pontos' na fronteira entre Acre (AC) e Amazonas (AM), e no estado de Mato Grosso do Sul (MS).",
+    "III": "A afirmação III está incorreta. Esta é uma informação de conhecimento geral sobre a legislação brasileira. A Constituição Federal de 1988, em seus artigos 231 e 232, garante expressamente os direitos dos povos indígenas, incluindo sua organização social, costumes, línguas, crenças, tradições e os direitos originários sobre as terras que tradicionalmente ocupam. Portanto, eles estão, sim, amparados por direitos e garantias constitucionais.",
+    "IV": "A afirmação IV está incorreta. O Texto I explicitamente menciona um contraste: 'Desses registros, 44,8% (aproximadamente, 6,8 óbitos) são suicídios de crianças e adolescentes entre 10 e 19 anos. Esses dados contrastam com o panorama nacional, em que o maior índice é entre adolescentes e adultos de 15 a 20 anos.' Isso significa que a população indígena tem um perfil de vulnerabilidade distinto em termos de faixa etária (10-19 anos) em comparação com a população em geral. Consequentemente, as ações preventivas devem ser adaptadas às particularidades e aos fatores de risco específicos das comunidades indígenas e da faixa etária mais afetada dentro desse grupo, e não meramente baseadas em elementos globais para a população em geral em uma faixa etária diferente."
+  },
+  "dcn_relacionadas": [
+    "Formação Humanística e Social: A Computação permeia praticamente todas as atividades humanas... cabendo aos profissionais da Área a responsabilidade pelo desenvolvimento de soluções, ferramentas e processos coerentes com valores éticos e interesse social, e que também busquem o bem-estar do homem e o avanço tecnológico.",
+    "Estudo de Sociologia: prover o profissional de computação de posição crítica nos aspectos da vida social e cultural da qual os profissionais fazem parte; ...o desenvolvimento do espírito crítico no sentido de uma qualificação baseada no desenvolvimento autêntico e integral do sujeito como indivíduo e como ator social, postulando não só a sua inserção mas também a compreensão e o questionamento do mundo tecnológico e do mundo sociocultural que o circunda.",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'do conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas;' e 'da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;'",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes;'"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Interpretação de Texto",
+    "Análise de Dados",
+    "Conhecimento Socioambiental",
+    "Ética e Sociedade",
+    "Direitos Humanos"
+  ]
+}
+```

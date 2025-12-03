@@ -1,0 +1,27 @@
+```json
+{
+  "numero": "21",
+  "conteudo_principal": "Arquitetura de redes de computadores, dispositivos de interconexão e suas camadas de atuação no modelo OSI/TCP-IP.",
+  "justificativa_correta": "A alternativa E está correta. Um gateway de transporte (ou gateway de camada de transporte) é um dispositivo ou software que opera na camada de transporte do modelo OSI/TCP-IP e tem como função principal permitir a comunicação entre redes ou sistemas que utilizam protocolos de transporte diferentes, mas com funcionalidades semelhantes (como ambos serem orientados a conexão). O exemplo dado, de um computador usando TCP/IP se comunicando com um que usa SCTP (Stream Control Transmission Protocol), ambos protocolos de transporte orientados a conexão, ilustra perfeitamente a função de um gateway de transporte, que é a de realizar a tradução e adaptação desses protocolos para permitir a interoperabilidade.",
+  "justificativas_erradas": {
+    "A": "Os repetidores operam na Camada Física (Camada 1) do modelo OSI. Nesta camada, os dispositivos trabalham apenas com sinais elétricos ou ópticos (bits brutos), regenerando-os para estender o alcance do sinal. Eles não reconhecem ou processam quadros (Camada 2), pacotes (Camada 3) ou qualquer tipo de cabeçalho de dados, incluindo um 'próprio cabeçalho' no sentido de informação de protocolo. A afirmação de que não reconhecem quadros ou pacotes é verdadeira, mas a parte 'apenas o seu próprio cabeçalho' é conceitualmente incorreta, pois não há um cabeçalho que um repetidor processe.",
+    "B": "Um hub opera na Camada Física (Camada 1), atuando como um repetidor multiportas. Ele de fato retransmite os bits recebidos em uma porta para todas as outras, criando um único domínio de colisão. No entanto, a afirmação de que 'se dois quadros chegarem ao mesmo tempo, eles serão colocados em buffer de espera e arbitragem de enlace' está incorreta. Hubs não possuem inteligência para buffering ou arbitragem de quadros; eles simplesmente retransmitem os sinais. Se ocorrerem transmissões simultâneas, haverá uma colisão, e a informação será corrompida, exigindo um mecanismo de detecção e retransmissão pela camada de enlace de dados dos hosts conectados, como o CSMA/CD em Ethernet.",
+    "C": "Uma bridge (ou switch, que é uma bridge mais avançada) opera na Camada de Enlace de Dados (Camada 2). Ela de fato conecta segmentos de rede, isola domínios de colisão e encaminha quadros seletivamente para a porta correta, baseando-se nos endereços MAC (Media Access Control) presentes no cabeçalho do quadro. Switches podem encaminhar múltiplos quadros simultaneamente (full-duplex). No entanto, a afirmação de que ela 'examina o campo de carga útil (pacotes de rede) dos quadros que encaminha, para obter o endereço do destinatário' está incorreta. Dispositivos da Camada 2 examinam o cabeçalho da *Camada de Enlace* (onde está o endereço MAC de destino) para encaminhamento, não a carga útil (que conteria o pacote da Camada de Rede, como um pacote IP) para obter o endereço do destinatário (que, nesse contexto, seria um endereço IP e seria função de um roteador na Camada 3).",
+    "D": "Os roteadores operam na Camada de Rede (Camada 3) e examinam os endereços IP (endereços de rede) nos pacotes para determinar a melhor rota para o destino, o que está correto. A parte 'de modo que eles só trabalham com os protocolos para os quais foram projetados para lidar' é um pouco imprecisa, pois roteadores podem ser configurados para lidar com múltiplos protocolos de rede (como IPv4 e IPv6). A principal incorreção está na afirmação de que 'nas redes de broadcast, o problema de roteamento é mais complicado'. Roteadores, na verdade, servem para *segmentar* redes de broadcast, criando múltiplos domínios de broadcast (sub-redes). Eles não encaminham pacotes de broadcast por padrão, o que simplifica o problema de roteamento em vez de complicá-lo em 'redes de broadcast'. A camada de rede e seus algoritmos de roteamento buscam otimizar a entrega entre diferentes redes, não lidar com a complexidade de broadcasts dentro de uma única rede."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: redes de computadores",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes;"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Redes de Computadores",
+    "Modelo OSI",
+    "Camadas de Rede",
+    "Dispositivos de Rede",
+    "Gateway",
+    "Protocolos de Transporte",
+    "Redes de Dados"
+  ]
+}
+```

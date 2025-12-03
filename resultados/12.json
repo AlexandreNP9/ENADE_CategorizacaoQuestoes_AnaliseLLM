@@ -1,0 +1,29 @@
+```json
+{
+  "numero": "12",
+  "conteudo_principal": "A questão aborda a Lei Geral de Proteção de Dados Pessoais (LGPD), testando o conhecimento sobre seus conceitos fundamentais, direitos dos titulares de dados, tratamento de dados sensíveis, o conceito de anonimização e as atribuições do órgão regulador (Autoridade Nacional de Proteção de Dados - ANPD).",
+  "justificativa_correta": "A alternativa B está correta porque as afirmações I e III são verdadeiras e estão em conformidade com a Lei nº 13.709/2018 (LGPD).\n\n*   **Afirmação I (Correta):** A LGPD realmente impõe restrições e condições mais rigorosas para o tratamento de dados pessoais sensíveis, conforme o Art. 5º, inciso II, e Art. 11 da lei. Estes incluem dados sobre origem racial ou étnica, convicção religiosa e opinião política, entre outros, visando proteger direitos fundamentais de privacidade e liberdade e coibir seu uso indiscriminado.\n*   **Afirmação III (Correta):** O Art. 18 da LGPD estabelece diversos direitos aos titulares de dados, entre eles o direito de obter a confirmação da existência de tratamento de seus dados (inciso I), e de solicitar a correção de dados incompletos, inexatos ou desatualizados (inciso III), bem como a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei (inciso IV).",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta. De acordo com o Art. 5º, inciso III e VIII da LGPD, um dado é considerado anonimizado quando não pode ser associado, direta ou indiretamente, a um indivíduo, considerando a utilização de meios técnicos razoáveis e disponíveis no momento de seu tratamento. Se o processo de anonimização puder ser revertido, mesmo que por 'recursos próprios ou tecnológicos avançados', significa que a possibilidade de reidentificação existe, e, portanto, a LGPD não o considera verdadeiramente anonimizado para fins de exclusão de seu escopo. Tais dados podem ser tratados como pseudonimizados ou mesmo como dados pessoais, sujeitos às regras da lei, se a reversão for viável com esforços razoáveis.",
+    "IV": "A afirmação IV está incorreta. A Autoridade Nacional de Proteção de Dados (ANPD) é, de fato, responsável pela fiscalização, regulamentação (por meio de normas e diretrizes), prestação de esclarecimentos e investigação de denúncias relacionadas à LGPD (Art. 55-J). Contudo, a ANPD não tem o poder de 'modificar a legislação pertinente' no sentido de alterar a própria Lei Geral de Proteção de Dados Pessoais. A alteração de leis é uma atribuição exclusiva do Poder Legislativo. A ANPD atua com poder regulamentar e normativo dentro dos limites da lei existente, mas não legislativo para modificá-la."
+  },
+  "dcn_relacionadas": [
+    "**Formação Humanística e Social:** A LGPD é um tópico crucial que se encaixa na necessidade de prover o profissional de computação com o estudo de 'questões éticas para prover o profissional dos limites no desenvolvimento e no uso dos computadores e das tecnologias de computação' e o 'Impactos da Automação na Sociedade' (seção 'Formação Humanística e Social').\n",
+    "**Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos:** O documento DCN lista explicitamente 'ética e legislação' e 'computação e sociedade' (seção '3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura') como conteúdos comuns a todos os cursos de graduação em computação. A LGPD é um dos exemplos mais proeminentes de legislação e impacto social da computação que os futuros profissionais devem conhecer.\n",
+    "**Perfil Geral dos Egressos:** O perfil geral dos egressos deve incluir 'conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas' e 'compreensão do impacto da computação e suas tecnologias na sociedade' (seção '1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura'). A LGPD é um conhecimento legal e ético fundamental para a atuação profissional e para a compreensão do impacto da computação na sociedade.\n",
+    "**Competências e Habilidades Gerais dos Egressos:** A DCN menciona a competência de 'tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes' (seção '2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura'). O domínio da LGPD é essencial para que os profissionais atuem de forma ética e legalmente responsável."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "LGPD",
+    "Proteção de Dados",
+    "Privacidade",
+    "Legislação",
+    "Ética em Computação",
+    "Direitos do Titular",
+    "Dados Sensíveis",
+    "Anonimização",
+    "ANPD"
+  ]
+}
+```

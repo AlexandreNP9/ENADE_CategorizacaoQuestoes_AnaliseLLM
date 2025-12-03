@@ -1,0 +1,23 @@
+```json
+{
+  "numero": "30",
+  "conteudo_principal": "Compiladores e suas fases de análise (léxica, sintática, semântica) e otimização de código.",
+  "justificativa_correta": "A alternativa correta é a E, pois as afirmações I, III e IV estão corretas:\n\n*   **Afirmativa I (Correta):** O analisador sintático, também conhecido como parser, é responsável por verificar se a sequência de tokens (símbolos) produzida pelo analisador léxico forma uma estrutura gramaticalmente correta, de acordo com as regras de sintaxe da linguagem. Ele identifica se o programa é válido em termos de sua estrutura. Se a sequência de símbolos não seguir as regras, um erro sintático é reportado.\n*   **Afirmativa III (Correta):** O analisador semântico atua após a análise sintática e verifica a correção lógica e o significado do programa. Ele detecta inconsistências ou incoerências que a análise sintática não consegue (por exemplo, uso de variáveis não declaradas, atribuição de tipos incompatíveis, chamadas de funções com argumentos incorretos). Embora opere sobre uma representação intermediária (como a árvore sintática abstrata), seu objetivo é validar o 'significado' das construções do código-fonte.\n*   **Afirmativa IV (Correta):** A fase de otimização de código visa melhorar o código intermediário gerado pelo compilador para produzir um código de máquina mais eficiente. Isso pode significar um código mais rápido em termos de execução, menor em tamanho, ou que consuma menos recursos (como energia). O objetivo de tornar o código mais rápido é um dos principais da otimização.",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta. Embora a primeira parte seja verdadeira (o analisador léxico identifica símbolos com significado, gerando tokens), a segunda parte está errada: 'gerando a mesma classificação para Java, Pascal ou outra linguagem'. As regras léxicas (como a definição de palavras-chave, identificadores, operadores, etc.) são específicas de cada linguagem de programação. Por exemplo, 'public' é uma palavra-chave em Java, mas não em Pascal, e a lista completa de palavras-chave difere entre as linguagens. Portanto, as classificações geradas pelo analisador léxico são específicas da linguagem que está sendo compilada, não sendo as mesmas para todas as linguagens."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: compiladores",
+    "3.2. Conteúdos Curriculares da Formação Tecnológica e Básica dos Cursos de Bacharelado em Ciência da Computação: teoria de compilação"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Compiladores",
+    "Análise Léxica",
+    "Análise Sintática",
+    "Análise Semântica",
+    "Otimização de Código",
+    "Linguagens de Programação"
+  ]
+}
+```

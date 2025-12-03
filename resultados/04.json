@@ -1,0 +1,33 @@
+```json
+{
+  "numero": "04",
+  "conteudo_principal": "Impactos sociais, éticos e econômicos da tecnologia, com foco na 'Gig Economy' (economia dos bicos) e suas implicações nas relações de trabalho, direitos trabalhistas e bem-estar dos trabalhadores digitais.",
+  "justificativa_correta": "A alternativa correta é a B. Ambas as asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I.\n\n**Justificativa para a Asserção I (Verdadeira):** O texto descreve a 'Gig Economy' como a contratação de 'freelancers' por plataformas digitais, onde os trabalhadores são autônomos, sem vínculo empregatício, e não sujeitos a regulamentação e proteção legal. A asserção I sintetiza fielmente essa definição apresentada no enunciado.\n\n**Justificativa para a Asserção II (Verdadeira):** O texto afirma que os trabalhadores 'arcam com todo o custo da atividade que exercem' e 'sofrem com problemas de coluna e com o estresse no trânsito, além das longas jornadas de trabalho', que são características de quem 'ganha por produção' ou por tarefa. A asserção II descreve corretamente as condições e consequências para os trabalhadores na Gig Economy, conforme o texto.\n\n**Justificativa para a Relação (Não é justificativa correta):** A asserção I define o que é a Gig Economy (um tipo de arranjo de trabalho informal e desprotegido). A asserção II descreve as características e as consequências para os trabalhadores dentro desse modelo. Embora as condições descritas na asserção II sejam inerentes e problemáticas dentro da Gig Economy (asserção I), elas não são a *causa* ou a *justificativa* da *definição* da Gig Economy como um sistema de trabalho informal e desprotegido. A informalidade e a ausência de vínculo (I) é que permitem ou resultam nas condições de arcar com custos e longas jornadas (II), e não o contrário. Portanto, a asserção II complementa a descrição da asserção I, mas não a justifica no sentido causal de 'porque'.",
+  "justificativas_erradas": {
+    "A": "Ambas as asserções são verdadeiras, mas a asserção II não é uma justificativa para a asserção I. A asserção II descreve consequências e características do modelo de trabalho da Gig Economy, enquanto a asserção I define esse modelo. Não há uma relação de causa e efeito que justifique a definição pelo seu impacto direto.",
+    "C": "A asserção I é verdadeira, mas a asserção II também é verdadeira. O texto suporta a afirmação de que os trabalhadores arcam com os custos, enfrentam longas jornadas e problemas de saúde.",
+    "D": "A asserção I é verdadeira, e a asserção II também é verdadeira. Ambas as proposições estão de acordo com as informações fornecidas no enunciado.",
+    "E": "Ambas as asserções são verdadeiras, conforme explicado anteriormente, e o texto fornece suporte explícito para ambas as afirmações."
+  },
+  "dcn_relacionadas": [
+    "Formação Humanística e Social: A Computação permeia praticamente todas as atividades humanas, incluindo trabalho, lazer, saúde, educação e comunicação, cabendo aos profissionais da Área a responsabilidade pelo desenvolvimento de soluções, ferramentas e processos coerentes com valores éticos e interesse social, e que também busquem o bem-estar do homem e o avanço tecnológico.",
+    "Formação Humanística e Social: O estudo dos Impactos da Automação na Sociedade para prover o profissional de computação do conhecimento das influências sociais e individuais, sejam negativas ou positivas, causadas pelos computadores. Aspectos fundamentais que devem ser discutidos são: ... o problema da automação como mecanismo para substituir o trabalho humano; ... os efeitos sociais negativos e positivos da profissão; influências perniciosas dos computadores sobre a mente dos seus usuários e profissionais.",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: ética e legislação; computação e sociedade;",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: do conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas;",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;",
+    "Art. 4º, I e II, da Resolução: Assegurar a formação de profissionais dotados de conhecimento das questões sociais, profissionais, legais, éticas, políticas e humanísticas; e da compreensão do impacto da computação e suas tecnologias na sociedade."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Gig Economy",
+    "economia digital",
+    "impacto social da tecnologia",
+    "ética na computação",
+    "relações de trabalho",
+    "direitos trabalhistas",
+    "automação e sociedade",
+    "freelancers",
+    "plataformas digitais"
+  ]
+}
+```

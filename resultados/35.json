@@ -1,0 +1,29 @@
+```json
+{
+  "numero": "35",
+  "conteudo_principal": "Sistemas Distribuídos: Conceitos e características fundamentais, com foco em escalabilidade, tolerância a falhas, heterogeneidade, sincronização e transparência.",
+  "justificativa_correta": "A alternativa correta é a D. A escalabilidade é uma das características mais importantes de sistemas distribuídos, referindo-se à capacidade de um sistema de aumentar seu desempenho ou capacidade de processamento pela adição de mais recursos (hardware, software, nós) para atender a uma demanda crescente. A capacidade de adicionar novos dispositivos para lidar com mais carga de trabalho é a essência da escalabilidade horizontal, uma vantagem primária dos sistemas distribuídos.",
+  "justificativas_erradas": {
+    "A": "Incorreta. A sincronização de relógios físicos em sistemas distribuídos é extremamente desafiadora e, na prática, raramente perfeita. A coordenação de ações e a troca de mensagens são frequentemente garantidas por relógios lógicos (como os de Lamport ou vetoriais) ou por algoritmos de consenso que garantem a ordem causal dos eventos, e não dependem de uma sincronização física global exata para serem coordenadas. A afirmação de que é 'o que permite' é um exagero e simplifica indevidamente a complexidade do problema.",
+    "B": "Incorreta. A falha de um componente em um sistema distribuído, especialmente em arquiteturas *peer-to-peer* (P2P), não deve, idealmente, causar a interrupção de todos os demais componentes. Um dos objetivos dos sistemas distribuídos é a tolerância a falhas, ou seja, a capacidade de continuar operando mesmo com a falha de alguns de seus elementos, utilizando redundância e mecanismos de recuperação. A descrição na alternativa sugere um ponto único de falha, o que é contrário aos princípios de robustez e resiliência buscados em sistemas distribuídos e P2P.",
+    "C": "Incorreta. A heterogeneidade é uma característica comum e, muitas vezes, desejável em sistemas distribuídos. Eles são projetados para operar com diferentes tipos de hardware, sistemas operacionais e linguagens de programação, comunicando-se através de padrões e middlewares. A homogeneidade não é um pré-requisito para o compartilhamento de recursos, mas sim um fator que, quando presente, pode simplificar o desenvolvimento, mas que não é mandatório.",
+    "E": "Incorreta. A possibilidade de vários clientes acessarem de forma concorrente um mesmo recurso é uma questão de **concorrência** e de **gerenciamento de recursos**, que exige mecanismos como bloqueios (locks), semáforos ou transações para garantir a consistência e a integridade dos dados. A **transparência** em sistemas distribuídos visa ocultar a natureza distribuída do sistema do usuário e do programador (por exemplo, transparência de acesso, de localização, de replicação), fazendo-o parecer um sistema único. Embora a transparência possa tornar o acesso concorrente mais fácil de *perceber* ou *usar*, ela não é o que *habilita* ou *resulta* na capacidade de acesso concorrente em si, que é uma preocupação de controle e coordenação."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: processamento distribuído",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: X - aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação;",
+    "1.1. Perfil Geral dos Egressos dos Cursos de Bacharelado e de Licenciatura: II - da compreensão do impacto da computação e suas tecnologias na sociedade no que concerne ao atendimento e à antecipação estratégica das necessidades da sociedade;"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Sistemas Distribuídos",
+    "Escalabilidade",
+    "Características de Sistemas Distribuídos",
+    "Tolerância a Falhas",
+    "Heterogeneidade",
+    "Sincronização",
+    "Transparência",
+    "Concorrência"
+  ]
+}
+```

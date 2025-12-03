@@ -1,0 +1,25 @@
+{
+  "numero": "31",
+  "conteudo_principal": "Teoria da Computação, Linguagens Formais e Autômatos (Máquinas de Turing, Autômatos com Pilha, Hierarquia de Chomsky, Linguagens Livres de Contexto)",
+  "justificativa_correta": "A alternativa correta é a E, pois as afirmações II, III e IV estão corretas.\n\n**Análise da Afirmação I:**\nPara avaliar a afirmação I, devemos simular os primeiros 4 movimentos da Máquina de Turing (MT) M com a entrada '110011'. A fita inicia com `B...B 1 1 0 0 1 1 B...B`, e a cabeça de leitura está no primeiro '1' (estado `q0`).\n1.  **(q0, 1) -> (q5, B, D)**: A MT lê '1', escreve 'B', move para a direita (D) e vai para o estado `q5`. Fita: `B...B B [1] 0 0 1 1 B...B` (cabeça no segundo '1'). Conteúdo visível: `10011`.\n2.  **(q5, 1) -> (q5, 1, D)**: A MT lê '1', escreve '1', move para a direita (D) e permanece no estado `q5`. Fita: `B...B B 1 [0] 0 1 1 B...B` (cabeça no primeiro '0'). Conteúdo visível: `10011`.\n3.  **(q5, 0) -> (q5, 0, D)**: A MT lê '0', escreve '0', move para a direita (D) e permanece no estado `q5`. Fita: `B...B B 1 0 [0] 1 1 B...B` (cabeça no segundo '0'). Conteúdo visível: `10011`.\n4.  **(q5, 0) -> (q5, 0, D)**: A MT lê '0', escreve '0', move para a direita (D) e permanece no estado `q5`. Fita: `B...B B 1 0 0 [1] 1 B...B` (cabeça no terceiro '1'). Conteúdo visível: `10011`.\nApós 4 movimentos, o conteúdo da fita, excluindo os 'B's, é '10011'. Portanto, a afirmação I é **FALSA**.\n\n**Análise da Afirmação II:**\nContinuando a simulação a partir do movimento 4:\n5.  **(q5, 1) -> (q5, 1, D)**: `q5`, fita: `B...B B 1 0 0 1 [1] B...B` (cabeça no quarto '1'). Conteúdo visível: `10011`.\n6.  **(q5, 1) -> (q5, 1, D)**: `q5`, fita: `B...B B 1 0 0 1 1 [B] B...B` (cabeça no primeiro 'B' após a entrada). Conteúdo visível: `10011`.\n7.  **(q5, B) -> (q6, B, E)**: `q6`, fita: `B...B B 1 0 0 1 [1] B B...B` (cabeça no quarto '1'). Conteúdo visível: `10011`.\n8.  **(q6, 1) -> (q7, B, E)**: `q7`, fita: `B...B B 1 0 0 [1] B B...B` (cabeça no terceiro '1'). Conteúdo visível: `1001`.\nApós 8 movimentos, o conteúdo da fita, excluindo os 'B's, é '1001'. Portanto, a afirmação II é **VERDADEIRA**.\n\n**Análise da Afirmação III:**\nO enunciado afirma que "M aceita apenas números binários palíndromos cujo comprimento é par". A entrada '110011' é um palíndromo binário de comprimento 6 (que é par). Se a máquina de Turing cumpre a descrição de sua linguagem, então para esta entrada ela deve, por definição, alcançar um estado de aceitação. Continuando a simulação, após 12 movimentos a cabeça está sobre um 'B' no estado `q7`, e a transição `(q7, B) -> (qf, B, D)` leva a máquina para o estado de aceitação `qf` (movimento 13). Portanto, a afirmação III é **VERDADEIRA**.\n\n**Análise da Afirmação IV:**\nA linguagem de palíndromos (incluindo aqueles de comprimento par, como `ww^R`) é um exemplo clássico de linguagem livre de contexto. Autômatos com pilha (Pushdown Automata - PDA) são os modelos computacionais equivalentes às gramáticas livres de contexto e são capazes de reconhecer todas as linguagens livres de contexto. Para reconhecer um palíndromo de comprimento par, um PDA não determinístico pode empilhar os símbolos da primeira metade da string e, em seguida, começar a desempilhar e comparar com os símbolos da segunda metade. Portanto, existe um autômato com pilha que aceita a mesma linguagem de M. A afirmação IV é **VERDADEIRA**.\n\nConsiderando que as afirmações II, III e IV são verdadeiras, a alternativa E está correta.",
+  "justificativas_erradas": {
+    "A": "Incorreta, pois a afirmação I é falsa.",
+    "B": "Incorreta, pois a afirmação I é falsa.",
+    "C": "Incorreta, pois embora as afirmações II e III sejam verdadeiras, a alternativa IV também é verdadeira e está incluída na opção E.",
+    "D": "Incorreta, pois a afirmação I é falsa."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: teoria da computação; linguagens formais e autômatos; algoritmos e complexidade; fundamentos de linguagens (sintaxe, semântica e modelos).",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: I - identificar problemas que tenham solução algorítmica; II - conhecer os limites da computação.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: I - compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações."
+  ],
+  "nivel_cognitivo": "Alto",
+  "tags": [
+    "Teoria da Computação",
+    "Máquinas de Turing",
+    "Autômatos com Pilha",
+    "Linguagens Livres de Contexto",
+    "Simulação de Máquinas de Turing",
+    "Hierarquia de Chomsky"
+  ]
+}

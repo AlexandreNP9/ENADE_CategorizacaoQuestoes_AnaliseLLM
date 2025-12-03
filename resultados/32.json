@@ -1,0 +1,26 @@
+```json
+{
+  "numero": "32",
+  "conteudo_principal": "Algoritmos de Ordenação (Quicksort): Análise de complexidade (tempo e espaço), propriedades (estabilidade) e estratégias de pivotamento.",
+  "justificativa_correta": "A alternativa correta é a 'A', pois as afirmações I e III estão corretas.\n\n**Análise da afirmação I:** O algoritmo Quicksort, como apresentado, é recursivo. No pior caso (por exemplo, quando o vetor já está ordenado e o pivô é sempre o menor ou maior elemento), a cada chamada recursiva, uma das partições pode ter tamanho `n-1` e a outra tamanho `0`. Isso leva a uma profundidade de recursão de `O(n)`, significando que `n` chamadas recursivas podem estar ativas na pilha de execução simultaneamente. Cada chamada recursiva consome espaço na pilha para armazenar seus parâmetros e variáveis locais. Portanto, no pior caso, o espaço adicional necessário para a pilha de recursão é `O(n)`. Mesmo no caso médio, onde a profundidade é `O(log n)`, a afirmação I descreve o limite superior no pior cenário, que é uma característica importante a ser considerada.\n\n**Análise da afirmação III:** A complexidade de tempo média do Quicksort é `O(n log n)`. Essa é uma propriedade fundamental do algoritmo, que o torna um dos algoritmos de ordenação mais eficientes na prática para grandes conjuntos de dados, apesar de seu pior caso ser `O(n^2)`. A média é alcançada quando as partições são relativamente balanceadas, resultando em uma altura de árvore de recursão próxima de `log n` e `n` operações de comparação/troca em cada nível de partição.",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta. Embora o algoritmo seja de fato recursivo, ele não é estável. Um algoritmo de ordenação é estável se preserva a ordem relativa de elementos iguais. O algoritmo `particao` (que usa o esquema de partição de Lomuto com o último elemento como pivô) realiza trocas que podem alterar a ordem relativa de elementos iguais. Por exemplo, se tivermos um vetor `[5a, 2, 5b]` e `5b` for o pivô, `A[0]` (5a) não é menor que o pivô e não é trocado no laço `repita para j`. `A[1]` (2) é menor que o pivô, então `A[0]` (5a) e `A[1]` (2) são trocados, resultando em `[2, 5a, 5b]`. Após o laço, o pivô `5b` é trocado com `A[i]` (que agora é `5a`), resultando em `[2, 5b, 5a]`. A ordem original `5a, 5b` foi alterada para `5b, 5a`, quebrando a estabilidade.",
+    "IV": "A afirmação IV está incorreta. O uso do primeiro ou do último elemento como pivô são escolhas simples e ingênuas, ambas suscetíveis a levarem o Quicksort ao seu pior caso de `O(n^2)` se o vetor de entrada estiver ordenado ou quase ordenado (ou em ordem inversa). Não há uma eficiência inerente em escolher o primeiro em detrimento do último, ou vice-versa. Estratégias mais eficientes para escolha do pivô incluem a seleção aleatória, ou o 'mediana de três', que visam evitar os casos de pior desempenho e garantir que o algoritmo opere mais consistentemente em seu tempo médio de `O(n log n)`."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: algoritmos e complexidade; abstração e estruturas de dados; programação.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: I - identificar problemas que tenham solução algorítmica; V - compreender e explicar as dimensões quantitativas de um problema.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: I - compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações; X - aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Algoritmos de Ordenação",
+    "Quicksort",
+    "Complexidade de Algoritmos",
+    "Análise de Desempenho",
+    "Estabilidade de Algoritmos",
+    "Recursão",
+    "Estruturas de Dados"
+  ]
+}
+```

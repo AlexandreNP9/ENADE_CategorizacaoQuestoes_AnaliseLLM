@@ -1,0 +1,32 @@
+```json
+{
+  "numero": "24",
+  "conteudo_principal": "Criptografia e Segurança da Informação, abordando conceitos de criptografia simétrica e assimétrica, funções de hash, autenticidade e integridade de mensagens, e o papel dos vetores de inicialização (IV).",
+  "justificativa_correta": "A alternativa correta é a E, pois as afirmações I, II e IV estão corretas.\n\n**Afirmação I (Correta):** Esta afirmação descreve corretamente um aspecto da criptografia assimétrica e das assinaturas digitais. Se a chave pública de um usuário é armazenada em um servidor acessível, ela pode ser utilizada para verificar a autenticidade de uma mensagem que foi 'assinada' com a chave privada correspondente do remetente. Isso garante que a mensagem realmente foi enviada por quem afirma ser o remetente, pois apenas ele possui a chave privada capaz de gerar uma assinatura verificável pela sua chave pública.\n\n**Afirmação II (Correta):** O Vetor de Inicialização (IV) é um número aleatório ou pseudorrandomico usado em conjunto com uma chave secreta para garantir que, mesmo que o mesmo texto simples seja criptografado múltiplas vezes, ele resultará em diferentes textos cifrados. Um IV variável para cada mensagem é crucial para ocultar padrões de dados, prevenindo ataques de dicionário e garantindo que cada cifragem seja única. Além disso, dificulta ataques de reprodução (replay attacks), onde um atacante tenta reenviar mensagens criptografadas antigas, pois cada mensagem possui um contexto criptográfico único devido ao IV.\n\n**Afirmação IV (Correta):** SHA-256 (Secure Hash Algorithm 256) é uma função de hash criptográfica. Funções de hash são amplamente utilizadas para garantir a integridade dos dados. Ao calcular o hash de uma mensagem antes do envio e compará-lo com o hash da mensagem recebida, é possível detectar qualquer alteração (seja intencional ou acidental) que tenha ocorrido durante a transmissão. Se os valores de hash não coincidirem, a integridade da mensagem foi comprometida.",
+  "justificativas_erradas": {
+    "III": "A afirmação III está incorreta. Embora o AES (Advanced Encryption Standard) seja, de fato, um algoritmo de criptografia simétrica, a descrição que se segue é equivocada para este tipo de criptografia. A criptografia simétrica utiliza uma *única chave secreta compartilhada* tanto para encriptar quanto para decriptar a mensagem. A descrição fornecida — 'aquela que utiliza um par de chaves, uma usada pelo remetente, para encriptar a mensagem, e outra para o destinatário decriptá-la' — é a definição da *criptografia assimétrica* (ou de chave pública), e não da criptografia simétrica."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'segurança', 'redes de computadores'.",
+    "3.2. Conteúdos Curriculares da Formação Tecnológica e Básica dos Cursos de Bacharelado em Ciência da Computação: 'criptografia', 'lógica', 'algoritmos e complexidade'.",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: III - 'identificar e gerenciar os riscos que podem estar envolvidos na operação de equipamentos de computação (incluindo os aspectos de dependabilidade e segurança)'; X - 'aplicar temas e princípios recorrentes, como [...] segurança [...]'.",
+    "2.3. Competências e Habilidades dos Cursos de Bacharelado em Engenharia de Computação: II - 'compreender, implementar e gerenciar a segurança de sistemas de computação'.",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: V - 'gerenciar, manter e garantir a segurança dos sistemas de informação e da infraestrutura de Tecnologia da Informação de uma organização'."
+  ],
+  "nivel_cognitivo": "Alto",
+  "tags": [
+    "Criptografia",
+    "Segurança da Informação",
+    "Criptografia Simétrica",
+    "Criptografia Assimétrica",
+    "Funções Hash",
+    "SHA-256",
+    "AES",
+    "Vetor de Inicialização (IV)",
+    "Autenticidade",
+    "Integridade",
+    "Redes de Computadores",
+    "Protocolos de Comunicação"
+  ]
+}
+```

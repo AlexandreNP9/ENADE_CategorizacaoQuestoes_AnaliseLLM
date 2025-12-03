@@ -1,0 +1,27 @@
+```json
+{
+  "numero": "33",
+  "conteudo_principal": "Programação Lógica (Prolog), Representação de Conhecimento e Inferência Lógica.",
+  "justificativa_correta": "A questão foi ANULADA, mas a alternativa D, `saoirmas(X,Y):-paide(X,P), paide(Y,P), X\\=Y, mulher(X), mulher(Y).`, é a que se aproxima mais da intenção de definir 'irmãs' sob a interpretação de 'uma das situações lógicas'. Esta regra define corretamente irmãs que compartilham o mesmo pai ('paide(X,P), paide(Y,P)'), são distintas ('X\\=Y') e ambas são do sexo feminino ('mulher(X), mulher(Y)'). Na base de fatos fornecida, esta regra identificaria corretamente Ana e Maria como irmãs. Contudo, a anulação provavelmente ocorreu porque a definição de 'irmãs' em um sentido mais amplo inclui também aquelas que compartilham apenas a mesma mãe, o que não é coberto por esta única regra, apesar da base de fatos conter predicados `maede/2`. Uma definição mais completa de irmãs (cobrindo ambos os pais) poderia ser construída, mas não está presente nas opções de forma que use todos os fatos para a definição mais abrangente de irmãs (seja por pai OU por mãe).",
+  "justificativas_erradas": {
+    "A": "A regra `saoirmas(X,Y):-paide(X,P), paide(Y,P), X\\=Y.` define 'irmãos' (pessoas que compartilham o mesmo pai e são diferentes), sem restringir o gênero. Ela seria verdadeira para um irmão e uma irmã, como `saoirmas(luiz, maria)`, o que é incorreto para 'irmãs'.",
+    "B": "A regra `saoirmas(X,Y):-paide(X,P), paide(Y,P), X\\=Y, mulher(X).` restringe apenas `X` a ser mulher, permitindo que `Y` seja homem. Por exemplo, `saoirmas(maria, luiz)` seria verdadeira, o que é incorreto para 'irmãs'.",
+    "C": "A regra `saoirmas(X,Y):-paide(X,P), paide(Y,P), X\\=Y, mulher(X,Y).` é semanticamente incorreta. O predicado `mulher/2` (com dois argumentos) não está definido na base de fatos fornecida; o predicado correto para verificar o gênero é `mulher/1`.",
+    "E": "A regra `saoirmas(X,Y):-paide(X,P), maede(Y,M), X\\=Y, mulher(X), mulher(Y).` não estabelece um parentesco comum entre X e Y. Ela apenas exige que X tenha um pai (qualquer P) e Y tenha uma mãe (qualquer M), e que ambos sejam mulheres e diferentes, sem que P e M sejam necessariamente pais comuns. Isso não garante que X e Y sejam irmãs."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: inteligência artificial e computacional (Prolog é uma linguagem fundamental da IA), lógica (base da programação lógica), fundamentos de linguagens (sintaxe, semântica e modelos de linguagens de programação), programação (desenvolvimento de soluções em diferentes paradigmas).",
+    "3.2. Conteúdos Curriculares da Formação Tecnológica e Básica dos Cursos de Bacharelado em Ciência da Computação: lógica (reforça a importância da lógica para a Ciência da Computação), fundamentos da programação (Prolog como um paradigma de programação)."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Prolog",
+    "Programação Lógica",
+    "Lógica",
+    "Representação de Conhecimento",
+    "Fatos e Regras",
+    "Paradigmas de Programação",
+    "Inteligência Artificial"
+  ]
+}
+```

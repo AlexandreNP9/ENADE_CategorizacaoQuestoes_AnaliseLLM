@@ -1,0 +1,35 @@
+```json
+{
+  "numero": "19",
+  "conteudo_principal": "Elicitação de Requisitos, Interação Humano-Computador (IHC), Design Centrado no Usuário, Personas e Cenários.",
+  "justificativa_correta": "A alternativa correta é a D, que afirma que as proposições I, II e IV estão corretas.\n\n*   **I. Correta:** Personas (representações fictícias detalhadas de tipos de usuários) e cenários (narrativas de como esses usuários interagem com o sistema para atingir objetivos) são técnicas poderosas para explorar o contexto de uso e as necessidades dos usuários em profundidade. Elas ajudam a identificar e explicitar requisitos que, de outra forma, poderiam permanecer subentendidos ou desconhecidos, ao trazer à tona situações de uso realísticas, objetivos, frustrações e comportamentos dos usuários.\n*   **II. Correta:** Ao desenvolver personas e cenários, os projetistas são incentivados a pensar sobre o produto da perspectiva do usuário. Isso permite simular mentalmente (ou através de protótipos) como as diferentes decisões de design e arquitetura do sistema impactarão a experiência, a eficiência e a satisfação das personas em cenários específicos. Assim, é possível antecipar problemas, avaliar a adequação das soluções e tomar decisões de projeto mais informadas e centradas no usuário.\n*   **IV. Correta:** Um dos objetivos primordiais do uso de personas é humanizar o processo de desenvolvimento. Elas atuam como 'lembretes' constantes para a equipe de que o produto ou sistema está sendo construído para pessoas reais, com necessidades, limitações e objetivos específicos. Isso ajuda a evitar que o foco se desloque unicamente para aspectos técnicos, mantendo a empatia com o usuário final no centro das discussões e decisões de projeto.",
+  "justificativas_erradas": {
+    "III": "A afirmação de que 'O uso de personas e cenários, em um processo de elicitação, facilita a especificação formal e não-ambígua dos requisitos de interação' é incorreta. Personas e cenários são excelentes para *compreender*, *comunicar* e *explorar* requisitos de forma rica e contextualizada, gerando empatia e alinhamento na equipe. No entanto, sua natureza é narrativa e descritiva, o que, por si só, não garante a 'especificação formal e não-ambígua'. Para alcançar formalidade e não-ambiguidade, são necessárias etapas subsequentes de detalhamento e modelagem (e.g., com casos de uso detalhados, diagramas UML, linguagens de especificação formais) que convertem as informações dos cenários em formatos mais estruturados e precisos, eliminando as ambiguidades inerentes à linguagem natural. Os cenários servem como *insumo* valioso para a especificação formal, mas não a *facilitam diretamente* por sua própria natureza."
+  },
+  "dcn_relacionadas": [
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados (oral e escrito);'",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: 'Ser capaz de realizar trabalho cooperativo e entender a força que dele pode ser derivada.'",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'IV - identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções;'",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'VIII - analisar quanto um sistema baseado em computadores atende os critérios definidos para seu uso corrente e futuro (adequabilidade);'",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: 'XIII - aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multimídia e sistemas móveis.'",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'engenharia de software;'",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'interação humano-computador;'",
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'análise, especificação, verificação e testes de sistemas;'",
+    "2.4. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Engenharia de Software: 'I - investigar, compreender e estruturar as características de domínios de aplicação em diversos contextos que levem em consideração questões éticas, sociais, legais e econômicas, individualmente e/ou em equipe;'",
+    "2.4. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Engenharia de Software: 'XIV - identificar e analisar problemas avaliando as necessidades dos clientes, especificar os requisitos de software, projetar, desenvolver, implementar, verificar e documentar soluções de software baseadas no conhecimento apropriado de teorias, modelos e técnicas.'",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: 'X - representar os modelos mentais dos indivíduos e do coletivo na análise de requisitos de um Sistema de Informação;'",
+    "2.5. Competências e habilidades dos Egressos dos Cursos de Bacharelado em Sistemas de Informação: 'XIII - aprimorar experiência das partes interessadas na interação com a organização incluindo aspectos da relação humano-computador.'"
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "HCI",
+    "Interação Humano-Computador",
+    "Engenharia de Software",
+    "Elicitação de Requisitos",
+    "Personas",
+    "Cenários",
+    "Design Centrado no Usuário",
+    "Requisitos de Interação"
+  ]
+}
+```

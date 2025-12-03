@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "28",
+  "conteudo_principal": "A questão aborda conceitos fundamentais de arquitetura e organização de computadores, focando no funcionamento de pipelines de instrução. Abrange tópicos como estágios de pipeline, fluxo de instruções, tratamento de 'bolhas' (stalls/bubbles), hierarquia de memória (cache de instruções e dados) e técnicas de otimização de desempenho, como a predição de desvios através do Branch Target Buffer (BTB).",
+  "justificativa_correta": "A alternativa correta é a B, pois as afirmações I e IV estão corretas:\n\n*   **Afirmação I (Correta):** Em um pipeline de N estágios, uma bolha (uma unidade de trabalho vazia ou NOP) inserida em um estágio se propaga para os estágios subsequentes em cada ciclo de relógio. Em um pipeline de 5 estágios, se uma bolha é introduzida em S1, ela estará em S2 no ciclo seguinte, em S3 no ciclo +2, em S4 no ciclo +3 e em S5 no ciclo +4. Após o ciclo +4, ela terá passado por S5 e, portanto, será 'eliminada' do pipeline. Assim, ela percorre os 4 estágios seguintes (S2, S3, S4, S5) nos próximos 4 ciclos, conforme descrito.\n*   **Afirmação IV (Correta):** O Branch Target Buffer (BTB) é uma técnica de hardware utilizada para predição de desvios condicionais. Ao identificar uma instrução de desvio nos estágios iniciais do pipeline (como S1), o BTB tenta prever se o desvio será tomado e qual será o endereço do próximo instrução. Essa predição permite que o processador comece a buscar e introduzir instruções do caminho previsto no pipeline, mantendo-o cheio e evitando as 'bolhas' que surgiriam se o pipeline tivesse que parar e esperar pelo resultado real do desvio (que só seria conhecido nos estágios de execução mais avançados).",
+  "justificativas_erradas": {
+    "II": "A afirmação II está incorreta. Em um pipeline clássico, como o descrito, todas as instruções passam por todos os estágios, mesmo que um estágio não execute nenhuma operação 'útil' para aquela instrução específica. O tempo de latência de uma instrução (tempo que leva para uma única instrução atravessar o pipeline do início ao fim) é constante e igual ao número de estágios (5 ciclos neste caso). Pular estágios diretamente, como sugerido (S3 para S4), não é um comportamento padrão em pipelines básicos, pois exigiria lógica de controle complexa para gerenciar a passagem de dados e evitar conflitos de tempo.",
+    "III": "A afirmação III está incorreta. O enunciado descreve o estágio S1 como a 'Unidade de busca de instrução' e o estágio S3 como a 'Unidade de busca de operando'. Em arquiteturas com cache de instruções separada da cache de dados (arquitetura Harvard modificada), o estágio S1 busca instruções *apenas* na cache de instruções. A busca de dados (operandos) é responsabilidade do estágio S3, que os buscaria na cache de dados. Portanto, a parte 'e dados na cache de dados' para o estágio S1 está errada."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: 'arquitetura e organização de computadores', 'avaliação de desempenho'.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: IV (Tomar decisões e inovar com base no conhecimento do funcionamento e das características técnicas de hardware) e VIII (Avaliar criticamente projetos de sistemas de computação).",
+    "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação: I (Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware) e X (Aplicar temas e princípios recorrentes, como [...] princípio de localidade de referência (caching), [...] concorrência, [...] e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação).",
+    "2.3. Competências e Habilidades dos Cursos de Bacharelado em Engenharia de Computação: I (Planejar, especificar, projetar, implementar, testar, verificar e validar sistemas de computação (sistemas digitais), incluindo computadores, sistemas baseados em microprocessadores) e VI (Analisar e avaliar arquiteturas de computadores, incluindo plataformas paralelas e distribuídas, como também desenvolver e otimizar software para elas)."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Arquitetura de Computadores",
+    "Pipeline de Instruções",
+    "Desempenho de Processadores",
+    "Hazards de Pipeline",
+    "Bolhas (Bubbles)",
+    "Cache de Memória",
+    "Branch Prediction",
+    "BTB (Branch Target Buffer)"
+  ]
+}
+```

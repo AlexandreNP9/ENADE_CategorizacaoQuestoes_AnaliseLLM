@@ -1,0 +1,28 @@
+```json
+{
+  "numero": "09",
+  "conteudo_principal": "Gerenciamento de Processos e Escalonamento de CPU em Sistemas Operacionais, focando na adequação de algoritmos de escalonamento a diferentes tipos de ambientes computacionais.",
+  "justificativa_correta": "A alternativa E está correta ao afirmar que 'Escalonamento por prioridades é propício para sistemas interativos'. Em sistemas interativos, a responsividade do sistema à entrada do usuário é crucial. O escalonamento por prioridades permite que o sistema operacional atribua prioridades mais altas a processos que interagem diretamente com o usuário (como aplicações em primeiro plano ou que realizam operações de I/O) e prioridades mais baixas a processos em segundo plano ou CPU-bound. Isso garante que as ações do usuário recebam atenção rapidamente, melhorando a experiência. Muitos sistemas operacionais de uso geral (que são predominantemente interativos) empregam escalonamento por prioridades, muitas vezes com prioridades dinâmicas, para otimizar a responsividade e prevenir a inanição de processos.",
+  "justificativas_erradas": {
+    "A": "A alternativa A está incorreta por dois motivos: primeiro, 'Primeiro a chegar, último a sair (FILO)' descreve uma pilha (Last-In, First-Out), não um algoritmo de escalonamento que processa o que chega primeiro, que seria FIFO (First-In, First-Out) ou FCFS (First-Come, First-Served). Segundo, independentemente da interpretação, algoritmos simples como FCFS não são propícios para sistemas de tempo real, pois não oferecem garantias de cumprimento de prazos (deadlines), podendo um processo longo bloquear a execução de processos críticos.",
+    "B": "A alternativa B está incorreta. O Escalonamento por Taxas Monotônicas (Rate Monotonic Scheduling - RMS) é um algoritmo de escalonamento estático por prioridades desenvolvido especificamente para sistemas de tempo real rígido. Ele atribui prioridades fixas às tarefas com base em suas taxas de ocorrência (períodos), sendo as tarefas com menores períodos (maiores taxas) as de maior prioridade. O objetivo é garantir que todas as tarefas periódicas cumpram seus prazos. Sistemas em lote, por outro lado, priorizam o throughput e o tempo de turnaround, sem as restrições de tempo críticas do tempo real, tornando o RMS inadequado para eles.",
+    "C": "A alternativa C está incorreta. O algoritmo 'Tarefa mais curta primeiro' (Shortest Job First - SJF) é considerado ótimo para minimizar o tempo médio de espera e o tempo médio de turnaround, sendo mais apropriado para sistemas em lote. No entanto, ele exige o conhecimento prévio do tempo de execução de cada tarefa, o que é impraticável na maioria dos ambientes. Além disso, em sistemas interativos, o foco é a responsividade e a justiça na distribuição do tempo de CPU, não a minimização do tempo total. O SJF pode causar inanição para tarefas longas, o que é inaceitável em um ambiente interativo.",
+    "D": "A alternativa D está incorreta. O Escalonamento por Chave Circular (Round-Robin - RR) é um algoritmo preemptivo que distribui o tempo de CPU de forma equitativa entre os processos, concedendo a cada um uma fatia de tempo (quantum). É amplamente utilizado em sistemas de tempo compartilhado/interativos para garantir um tempo de resposta razoável para todos os usuários. No entanto, não é propício para sistemas de tempo real porque, com um quantum fixo, não pode garantir que tarefas com prazos críticos sejam concluídas a tempo, especialmente se os prazos forem muito curtos ou as características de tempo real complexas. Sistemas de tempo real exigem garantias e previsibilidade que o RR não oferece intrinsecamente."
+  },
+  "dcn_relacionadas": [
+    "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura: sistemas operacionais; sistemas de tempo real; avaliação de desempenho.",
+    "2.1. Competências e Habilidades Gerais dos Egressos dos Cursos de Bacharelado e de Licenciatura: Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes; Avaliar criticamente projetos de sistemas de computação."
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Sistemas Operacionais",
+    "Escalonamento de CPU",
+    "Algoritmos de Escalonamento",
+    "Ambientes Computacionais",
+    "Tempo Real",
+    "Sistemas em Lote",
+    "Sistemas Interativos",
+    "Gerenciamento de Processos"
+  ]
+}
+```

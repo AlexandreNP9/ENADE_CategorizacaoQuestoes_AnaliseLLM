@@ -1,0 +1,43 @@
+```json
+{
+  "numero": "17",
+  "conteudo_principal": "Sistemas Operacionais, especificamente o tópico de Sincronização e Concorrência, incluindo Regiões Críticas, Exclusão Mútua e métodos para sua implementação (como desabilitação de interrupções) e suas limitações em diferentes arquiteturas de processadores (uniprocessador vs. multiprocessador).",
+  "justificativa_correta": "A alternativa correta é a C, pois a asserção I é verdadeira e a asserção II é falsa.\n\n**Análise da Asserção I:** 'Em algumas situações, a exclusão mútua pode ser obtida por meio da desabilitação da interrupção controlada pelo Sistema Operacional, não sendo permitido que o seu controle seja feito pelo usuário.'\n*   **Verdadeira.** Desabilitar interrupções é, de fato, uma técnica primitiva para alcançar exclusão mútua em sistemas com **um único processador (uniprocessador)**. Ao desabilitar as interrupções, o sistema operacional garante que o processo atualmente em execução não será preterido (interrompido) e, portanto, poderá completar sua região crítica sem que outro processo a acesse simultaneamente. O controle da desabilitação de interrupções é uma operação privilegiada, reservada ao kernel do sistema operacional, e não é permitido a programas de usuário para manter a estabilidade e segurança do sistema.\n\n**Análise da Asserção II:** 'A desabilitação da interrupção é uma técnica que pode impedir que o processador que está executando um processo em sua região crítica seja interrompido para executar outro código, sendo mais eficiente em sistemas de multiprocessadores devido a quantidade de processos concorrentes.'\n*   **Falsa.** A primeira parte da asserção é verdadeira: desabilitar interrupções *pode* impedir que o processador que está executando um processo em sua região crítica seja interrompido. No entanto, a segunda parte, que afirma ser 'mais eficiente em sistemas de multiprocessadores devido a quantidade de processos concorrentes', é **incorreta**. Em sistemas multiprocessadores, desabilitar interrupções em *um* processador não impede que *outro* processador execute um processo diferente e tente acessar a mesma região crítica. Para garantir exclusão mútua em um sistema multiprocessador, seriam necessários mecanismos mais robustos, como bloqueios de barramento ou instruções atômicas de hardware, que afetam a visibilidade e o acesso entre todos os processadores. Desabilitar interrupções globalmente em um multiprocessador seria extremamente ineficiente, podendo levar a perda de interrupções, latência elevada para tarefas essenciais e não escalaria bem. Portanto, essa técnica é ineficaz e ineficiente para exclusão mútua em ambientes multiprocessadores de forma geral.",
+  "justificativas_erradas": {
+    "A": "Incorreta porque a asserção II é falsa. Embora a asserção I seja verdadeira, a asserção II não é uma proposição verdadeira, invalidando a relação de justificativa.",
+    "B": "Incorreta porque a asserção II é falsa. Mesmo que a asserção I seja verdadeira, a falsidade da asserção II impede que a opção B seja correta.",
+    "D": "Incorreta porque a asserção I é verdadeira. A afirmação de que I é falsa está incorreta.",
+    "E": "Incorreta porque a asserção I é verdadeira. A afirmação de que ambas as asserções são falsas está incorreta."
+  },
+  "dcn_relacionadas": [
+    {
+      "secao": "3.1. Conteúdos Curriculares da Formação Tecnológica e Básica para todos os Cursos de Bacharelado e de Licenciatura",
+      "topicos": [
+        "sistemas operacionais",
+        "processamento paralelo",
+        "processamento distribuído",
+        "segurança"
+      ],
+      "justificativa": "A questão aborda diretamente conceitos fundamentais de sistemas operacionais, como concorrência e sincronização em ambientes multiprocessados, que são explicitamente listados como conteúdos básicos."
+    },
+    {
+      "secao": "2.2. Competências e Habilidades dos Egressos dos Cursos de Bacharelado em Ciência da Computação.",
+      "topicos": [
+        "aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação"
+      ],
+      "justificativa": "A capacidade de aplicar princípios de concorrência e entender o compartilhamento de recursos, como abordado na questão sobre regiões críticas e exclusão mútua, é uma competência central para egressos de Ciência da Computação."
+    }
+  ],
+  "nivel_cognitivo": "Médio",
+  "tags": [
+    "Sistemas Operacionais",
+    "Concorrência",
+    "Exclusão Mútua",
+    "Região Crítica",
+    "Sincronização",
+    "Multiprocessamento",
+    "Interrupções",
+    "Arquitetura de Computadores"
+  ]
+}
+```
